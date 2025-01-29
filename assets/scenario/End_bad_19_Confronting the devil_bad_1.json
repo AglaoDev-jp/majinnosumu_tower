@@ -1,0 +1,90 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_19",
+      "save_description": "勇者の剣を魔人に",
+      "flags": [
+        {
+          "bg_change": "broadsword.png",
+          "music": "風に揺れる草木1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは、アリアーナの命を守るために勇者の剣を魔人に差し出すことを決断した。"
+        },
+        {
+          "text": "魔人は冷笑を浮かべながら手を伸ばし、ゆっくりと剣を受け取る。"
+        },
+        {
+          "text": "「ついに手に入れたぞ、勇者の剣を！これで世界を支配する力を持つことができる！」"
+        },
+        {
+          "text": "その瞬間、あなたとアリアーナの心には不安が広がる。"
+        },
+        {
+          "text": "アリアーナはあなたを見つめ、悲しみと絶望の表情を浮かべている。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "bad_end_19",
+      "save_description": "お前たち価値はない",
+      "flags": [
+        {
+          "bg_change": "demon_anger.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "魔人が剣を手に入れたことで、彼の力はさらに増大し、",
+          "sound_effect": "重力魔法2.mp3.bin",
+          "auto_advance": true
+        },
+        {
+          "text": "周囲の空気が重く、冷たくなっていくのが感じられる。"
+        },
+        {
+          "text": "魔人は再びあなたに目を向ける。"
+        },
+        {
+          "text": "「お前たちは、もう価値はない。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_19",
+      "save_description": "暗黒のエネルギー",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "魔人の手から暗黒のエネルギーが放たれ、あなたとアリアーナを飲み込む。",
+          "sound_effect": "雷魔法4.mp3.bin"
+        },
+        {
+          "text": "目の前が暗転し、あなたは意識を失った。",
+          "bg_change": "black_image.png",
+          "sound_effect": "assets/audio/怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "そのまま何もかもが無に帰し、二度と目覚めることはなかった。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "ゲームオーバー",
+          "bg_change": "demon_laugh.png"
+        }
+      ]
+    }
+  ]
+}

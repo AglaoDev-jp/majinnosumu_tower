@@ -1,0 +1,67 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "devil's room",
+      "save_description": "牢屋を打ち破ろう",
+      "flags": [
+        {
+          "bg_change": "broadsword.png",
+          "music": "オーラ1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "牢屋を打ち破ろうと、あなたは剣を抜こうとする。"
+        },
+        {
+          "text": "剣はまるで石のように動かない。"
+        },
+        {
+          "text": "アリアーナ王女が、悲しげに口を開く。"
+        },
+        {
+          "text": "「やはり…あなたは正統な後継者ではないのですね…",
+          "auto_advance": true
+        },
+        {
+          "text": "　この剣は、真の勇者でなければ抜くことができないのです…」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "devil's room",
+      "save_description": "考え直す1",
+      "flags": [
+        {
+          "music": "strange_lullaby.mp3.bin"
+        },
+        {
+          "bg_change": "A prison like a giant birdcage.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "このままでは助けられない。"
+        },
+        {
+          "text": "あなたは再び考え直すことになる。:",
+          "music": "strange_lullaby.mp3.bin",
+          "choices": [
+            {
+              "text": "１．助けない。",
+              "choice_file": "B_08_Majin_room_loop_2.json"
+            },
+            {
+              "text": "２．周囲を調べる。",
+              "choice_file": "B_09_Confronting the devil.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

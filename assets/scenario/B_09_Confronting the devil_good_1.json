@@ -1,0 +1,279 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Confronting the devil",
+      "save_description": "アリアーナの意見",
+      "flags": [
+        {
+          "bg_change": "a princess up.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは魔人の脅迫に対し、アリアーナの意見を聞くことにした。"
+        },
+        {
+          "text": "彼女の側に立ち、そっと耳を傾ける。"
+        },
+        {
+          "text": "アリアーナの瞳には決意の光が宿っている。"
+        },
+        {
+          "text": "アリアーナは一瞬、剣を見つめた後、静かに口を開く。"
+        },
+        {
+          "text": "「その剣…私に渡して。私、使えるかもしれない。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "demon_return",
+      "save_description": "魔人の帰還",
+      "flags": [
+        {
+          "bg_change": "princess and sword.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "驚きと共に、あなたは彼女の言葉に従い、勇者の剣を彼女の手にそっと差し出す。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "剣を手にしたアリアーナの姿が、どこか神秘的な輝きを帯びているように見える"
+        },
+        {
+          "text": "彼女は剣を両手でしっかりと握りしめ、その刃を静かに構えた。"
+        },
+        {
+          "text": "魔人はその様子を見て不敵に笑う。"
+        },
+        {
+          "text": "「アリアーナ、お前が勇者の剣を使うなど、愚かにも程がある。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "demon_confrontation",
+      "save_description": "魔人との対峙",
+      "flags": [
+        {
+          "bg_change": "white_image.png",
+          "music": "オーラ1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "しかし、次の瞬間、剣が強烈な光を放ち始めた。",
+          "color": "black"
+        },
+        {
+          "text": "剣の光はまるで生きているかのように輝き、あたり一面に広がる。",
+          "color": "black",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "demon_confrontation",
+      "save_description": "魔人との対峙",
+      "flags": [
+        {
+          "bg_change": "princess and dvil.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "魔人はその光を直視することができず、手で顔を覆った。"
+        },
+        {
+          "text": "「なんだ、これは…！？」魔人は目を見開き、驚愕の表情を浮かべている。"
+        },
+        {
+          "text": "アリアーナは強い声で叫ぶ。"
+        },
+        {
+          "text": "「私の祖先はかつて、この剣を託された者たちだった。",
+          "auto_advance": true
+        },
+        {
+          "text": "　この剣の力は、私の血にも宿っているのです！」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "demon_defeat",
+      "save_description": "魔人の敗北",
+      "flags": [
+        {
+          "bg_change": "white_image.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "アリアーナは剣を高く掲げ、その光を魔人に向けて放った。",
+          "color": "black"
+        },
+        {
+          "text": "強烈な光が魔人を貫き、彼の邪悪な力を浄化していく。",
+          "color": "black",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "demon_defeat",
+      "save_description": "魔人の敗北",
+      "flags": [
+        {
+          "bg_change": "white_image.png",
+          "music": "オーラ1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「やめろ…！やめろぉぉ…！」",
+          "bg_change": "demon_pained.png"
+        },
+        {
+          "text": "魔人は苦しみながら叫ぶ。",
+          "bg_change": "demon_pained.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "save_id": "demon_defeat",
+      "save_description": "魔人の敗北",
+      "flags": [
+        {
+          "bg_change": "white_image.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "魔人の姿は光の中で消え去り、塔の中には静寂が訪れた。",
+          "sound_effect": "雷魔法4.mp3.bin",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ],
+          "color": "black",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "save_id": "Confronting the devil",
+      "save_description": "魔人を倒すことができました。",
+      "flags": [
+        {
+          "bg_change": "tower gate1.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "アリアーナは深呼吸をし、剣を静かに降ろす。"
+        },
+        {
+          "text": "「あなたのおかげで、魔人を倒すことができました。",
+          "auto_advance": true
+        },
+        {
+          "text": "　感謝します。」"
+        },
+        {
+          "text": "「これから、あなたをフィオリス王国にお連れします。",
+          "auto_advance": true
+        },
+        {
+          "text": "　フィオリス王国の民は、あなたを勇者として迎え、心から感謝と敬意を示すでしょう。"
+        },
+        {
+          "text": "　また、あなたは我が国に伝わる勇者の剣を託された者。"
+        },
+        {
+          "text": "　これも天命ならば、フィオリス王国にあなたの重要な役割があるはずです。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "save_id": "Confronting the devil",
+      "save_description": "勇気を与えてくれて。",
+      "flags": [
+        {
+          "bg_change": "End grassland princess up.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "彼女はあなたの方を振り向き、微笑んで言う。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "「あなたがいなければ、きっと私はここまでたどり着けなかった。",
+          "auto_advance": true
+        },
+        {
+          "text": "　先祖の血に宿る、自分の力を信じることもできなかったでしょう。"
+        },
+        {
+          "text": "　ありがとう。私に勇気を与えてくれて。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "save_id": "final_decision",
+      "save_description": "旅は無事に終わり",
+      "flags": [
+        {
+          "bg_change": "End grassland princess.png",
+          "music": "プレリュード第2番「名前を入力してください」.mp3.bin",
+          "loop": false
+        }
+      ],
+      "segments": [
+        {
+          "text": "塔の外では、曇っていた空が晴れ渡り、太陽の光が新しい朝を告げている。"
+        },
+        {
+          "text": "あなたとアリアーナは塔を後にし、平和な世界へと足を踏み出した。"
+        },
+        {
+          "text": "魔人の脅威は消え去り、あなたたちの旅は無事に終わりを迎えたのだ。"
+        },
+        {
+          "flags": [
+            {
+              "end_type": "scroll_credits",
+              "ending_name": "ending2"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

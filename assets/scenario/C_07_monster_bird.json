@@ -1,0 +1,303 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "sage_ghost_appearance",
+      "save_description": "賢者の亡霊の出現",
+      "flags": [
+        {
+          "bg_change": "ghostly_sage_appearance.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "石像を詳しく調べたあなたの前に、かつてこの地を守った賢者の亡霊が現れた"
+        },
+        {
+          "text": "彼の姿は穏やかで、あなたに向けて導くような声で語りかける。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "sage_advice_start",
+      "save_description": "賢者の助言の始まり",
+      "flags": [
+        {
+          "bg_change": "ghostly_sage_appearance.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「君は真実を求め、慎重に歩を進めてきた。",
+          "auto_advance": true
+        },
+        {
+          "text": "　そのおかげで、私の魂は君に助言を与えることができるようになった。",
+          "auto_advance": true
+        },
+        {
+          "text": "　私が封じ込められたこの塔は今、恐るべき魔人が支配している。",
+          "auto_advance": true
+        },
+        {
+          "text": "　その魔人を倒すには、ただの力では足りない。",
+          "auto_advance": true
+        },
+        {
+          "text": "　その昔、魔力を持つ者として私は、勇者と協力することで魔人達を倒してきた。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "sword_discovery",
+      "save_description": "剣の発見",
+      "flags": [
+        {
+          "bg_change": "ancient_sword.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "賢者は、石像の手にある剣を指し示しながら、続けた。"
+        },
+        {
+          "text": "「この勇者の剣ならば魔人を倒せるだろう。",
+          "auto_advance": true
+        },
+        {
+          "text": "　魔人の弱点はその心臓にある結晶だが、武力だけでは破壊できない。",
+          "auto_advance": true
+        },
+        {
+          "text": "　魔力を持つ者に勇者の魔法の言葉を唱えさせ、",
+          "auto_advance": true
+        },
+        {
+          "text": "　その力を借りて初めて、その結晶は脆くなる。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "final_instructions",
+      "save_description": "最後の指示",
+      "flags": [
+        {
+          "bg_change": "ghostly_sage_appearance.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "亡霊の賢者は、さらに重要なことを語り始めた。"
+        },
+        {
+          "text": "「塔の最上階には、どうやら魔力を持つ者がいるようだ。",
+          "auto_advance": true
+        },
+        {
+          "text": "　その者に勇者の魔法を伝えなさい。",
+          "auto_advance": true
+        },
+        {
+          "text": "　その言葉は、勇者の魂を宿し、結晶の防御を破壊する",
+          "auto_advance": true
+        },
+        {
+          "text": "　その瞬間に、この剣で魔人の結晶を突き、魔人を倒すのです。」"
+        },
+        {
+          "text": "賢者の亡霊は、石像の手から剣を取り出すよう促すと、静かに姿を消した。",
+          "bg_change": "ancient_sword.png"
+        },
+        {
+          "text": "あなたはその剣を手にし、塔の最上階へと向かう決意を固めた。",
+          "bg_change": "ancient_sword.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "rooftop_discovery",
+      "save_description": "屋上の発見",
+      "flags": [
+        {
+          "bg_change": "rooftop.png",
+          "music": "魔法使いが空を飛ぶ.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "暗い通路を抜け扉を開けると、目の前には予想外の光景が広がっていた。",
+          "bg_change": "bright_corridor.png"
+        },
+        {
+          "text": "そこは屋上だった。"
+        },
+        {
+          "text": "どうやら、ここが塔の最上階のようだ。"
+        },
+        {
+          "text": "広がる青空と吹き抜ける風に一瞬で心が解き放たれる。"
+        },
+        {
+          "text": "閉塞感のある迷宮を彷徨ってきたため、外気を感じることができた喜びは言葉にできない。"
+        },
+        {
+          "text": "やっと表に出られたという安堵感が全身を包み込む。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "monstrous_bird_appearance",
+      "save_description": "怪鳥の出現",
+      "flags": [
+        {
+          "bg_change": "monstrous bird1.png",
+          "music": "魔法使いが空を飛ぶ.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "ふと、強烈な視線を感じた。"
+        },
+        {
+          "text": "その静寂を破るかのように、巨大な影がゆっくりと動き出した。"
+        },
+        {
+          "text": "目を向けると、３ｍ程の巨大な怪鳥がこちらをじっと見つめているではないか。"
+        },
+        {
+          "text": "怪鳥はゆっくりと翼を広げ、その鋭い目であなたを捉えた。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "save_id": "monstrous_bird_dialogue",
+      "save_description": "怪鳥との対話",
+      "flags": [
+        {
+          "bg_change": "monstrous bird1.png",
+          "music": "魔法使いが空を飛ぶ.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「ほう…人間がここまでたどり着くとは…珍しいなぁ。」"
+        },
+        {
+          "text": "怪鳥はあなたに興味を示しながら、軽く首をかしげた。"
+        },
+        {
+          "text": "あなたはこの怪鳥に、経緯を話してみようと思った。",
+          "sound_effect": "発見.mp3.bin",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ]
+        },
+        {
+          "text": "塔の魔人に村から連れ去られ地下牢に囚われていたこと、",
+          "bg_change": "black_image.png",
+          "auto_advance": true
+        },
+        {
+          "text": "そこからなんとか脱出し、最上階まで上がってきたことを伝えた。",
+          "bg_change": "black_image.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "save_id": "monstrous_bird_confession",
+      "save_description": "怪鳥の告白",
+      "flags": [
+        {
+          "bg_change": "monstrous bird2.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "この怪鳥は、意外なほど同情的に耳を傾けてくれた。"
+        },
+        {
+          "text": "「なるほど…あの忌々しい魔人にそんな仕打ちを…そいつぁ災難だったなぁ。」"
+        },
+        {
+          "text": "怪鳥は軽くため息をつき、あなたを見つめた。"
+        },
+        {
+          "text": "「本来ワシこそが、この塔の主なのだ。",
+          "bg_change": "monstrous bird1.png",
+          "auto_advance": true
+        },
+        {
+          "text": "　しばらく留守にしている間に、その魔人が住み着いて…面倒なことになっていてな。",
+          "bg_change": "monstrous bird1.png"
+        },
+        {
+          "text": "　お前も地下で酷い目に遭ったようだが、ワシも奴には手を焼いていてな。",
+          "auto_advance": true
+        },
+        {
+          "text": "　いっそ、追い払ってしまいたいんだが、やつも中々手強くてな…。」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "save_id": "monstrous_bird_question",
+      "save_description": "怪鳥の質問",
+      "flags": [
+        {
+          "bg_change": "monstrous bird4.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "怪鳥は、しばらく考えるように目を閉じた後、笑みを浮かべた。"
+        },
+        {
+          "text": "「お前、地下牢から脱出してここまで来たってんなら、途中で書庫に寄らなかったか？"
+        },
+        {
+          "text": "　あそこには、魔人を封じる魔法書があったはずだ…何て名前の本だったかなぁ？」：",
+          "music": "奇妙な話.mp3.bin",
+          "choices": [
+            {
+              "text": "１．古代の魔法書から学んだ魔人の秘密",
+              "choice_file": "C_07_monster_bird_q_Correct_1.json"
+            },
+            {
+              "text": "２．失われた王国の魔人の記録",
+              "choice_file": "C_07_monster_bird_q_Incorrect_1.json"
+            },
+            {
+              "text": "３．影の中の魔人に関する研究書",
+              "choice_file": "C_07_monster_bird_q_Incorrect_1.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_14",
+      "save_description": "ゲームオーバー: 彫刻の下敷きになる",
+      "flags": [
+        {
+          "stop_music": true
+        },
+        {
+          "bg_change": "fallen_statue.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "彫刻が倒れ、激しく頭を打ち付けてしまった！",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "目の前が暗くなり、意識が遠のいていく。"
+        },
+        {
+          "text": "もう、これ以上動くことはできそうにない――。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "ゲームオーバー。",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

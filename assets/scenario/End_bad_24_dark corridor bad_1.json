@@ -1,0 +1,55 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_24",
+      "save_description": "左の回廊へ",
+      "flags": [
+        {
+          "bg_change": "dark_corridor6.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは迷いながらも左の回廊へ進むことを選んだ。"
+        },
+        {
+          "text": "回廊は進むにつれてどんどん狭くなり、まるで壁が押し寄せてくるかのように感じる。"
+        },
+        {
+          "text": "突然、壁が激しく軋む音が響き渡り、回廊が崩れ始めた。",
+          "music": "assets/sound_effects/地響き.mp3.bin",
+          "arrow_icon": "page_turn.png",
+          "bg_change": "Collapsing_Stone_Cave_Hallway_1.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "bad_end_24",
+      "save_description": "重たい瓦礫",
+      "flags": [
+        {
+          "bg_change": "black_image.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは必死に逃げようとするが、逃げ道はすでに塞がれている。",
+          "sound_effect": "怖い系リプレイ音.mp3.bin",
+          "bg_change": "Collapsing_Stone_Cave_Hallway_2.png"
+        },
+        {
+          "text": "重たい瓦礫が次々と降り注ぎ、あなたは暗闇の中に埋もれてしまった。"
+        },
+        {
+          "text": "ゲームオーバー",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

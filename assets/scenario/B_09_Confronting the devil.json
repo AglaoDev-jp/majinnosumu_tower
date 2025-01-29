@@ -1,0 +1,243 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "devil's room",
+      "save_description": "レバーを引くことを決意",
+      "flags": [
+        {
+          "bg_change": "devil's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは何か見落としているのではないかと感じ、部屋の周囲を慎重に調べ始める。"
+        },
+        {
+          "text": "石柱の隙間や床の裂け目、古びた玉座の裏側まで、目を凝らして探し回る。"
+        },
+        {
+          "text": "すると、あなたは玉座の後ろに目立たないレバーが埋め込まれているのを発見した。"
+        },
+        {
+          "text": "レバーの表面は年月を経て錆びついているが、触れると確かな感触が伝わってくる。"
+        },
+        {
+          "text": "ためらいながらも、あなたはレバーを引くことを決意する。"
+        },
+        {
+          "text": "ギシギシと音を立てて、レバーが動くと、部屋全体が微かに震えた。",
+          "sound_effect": "鉄の扉を閉める.mp3.bin",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ]
+        },
+        {
+          "text": "すると、アリアーナ王女が囚われている牢屋の鉄柵がゆっくりと開き始める。",
+          "sound_effect": "発見.mp3.bin",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "devil's room",
+      "save_description": "これで自由に…！",
+      "flags": [
+        {
+          "bg_change": "a princess up.png",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ]
+        }
+      ],
+      "segments": [
+        {
+          "text": "「…これで自由に…！」アリアーナ王女の顔に安堵の表情が浮かぶ。"
+        },
+        {
+          "text": "あなたは魔人の不在を祈りつつ、アリアーナ王女と共に次のフロアへと向かった。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Confronting the devil",
+      "save_description": "隠し通路",
+      "flags": [
+        {
+          "bg_change": "tower gate1.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "運よく隠し通路を見つけることができた。",
+          "bg_change": "hidden passage2.png"
+        },
+        {
+          "text": "普段、魔人が外出に使っているのだろう。",
+          "bg_change": "hidden passage2.png"
+        },
+        {
+          "text": "隠し通路を抜け、あなたとアリアーナは、塔の出口にある巨大な門までたどり着いた。"
+        },
+        {
+          "text": "重厚な扉を開けようとあなたが力を込めたその時、塔の内部から冷たい風が吹き抜けた。"
+        },
+        {
+          "text": "「おい、待て。お前たち、どこへ行くつもりだ？」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "Confronting the devil",
+      "save_description": "魔人が立ちはだかる",
+      "flags": [
+        {
+          "bg_change": "demon_anger.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "振り返ると、そこには魔人が立ちはだかっていた。",
+          "sound_effect": "ゴブリンの鳴き声1.mp3.bin"
+        },
+        {
+          "text": "怒りに満ちた目で二人を見据えている。"
+        },
+        {
+          "text": "「留守中にまさか、この私の塔から逃げようとするとはな…」"
+        },
+        {
+          "text": "魔人の声が低く響き渡り、その場の空気が一層重くなる。"
+        },
+        {
+          "text": "「アリアーナ、お前もか！私のもとから逃れられると思ったのか？」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "Confronting the devil",
+      "save_description": "握られた剣",
+      "flags": [
+        {
+          "bg_change": "broadsword.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "アリアーナは、恐怖で声を失っている。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "あなたは、彼女をかばうように前に立った。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "その時、魔人は主人公の手に握られた剣に気づいた。"
+        },
+        {
+          "text": "魔人の表情は一変する。"
+        },
+        {
+          "text": "「その剣…それは勇者の剣ではないか！」",
+          "bg_change": "Surprised_Demon.png"
+        },
+        {
+          "text": "魔人は驚愕の表情を浮かべ、一瞬言葉を失ったようだった。"
+        },
+        {
+          "text": "「どこでそれを手に入れた？答えろ！」"
+        },
+        {
+          "text": "主人公は剣を握りしめ、魔人に対して構えをとるが、魔人は冷笑を浮かべた。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "Confronting the devil",
+      "save_description": "…取引をしてやる",
+      "flags": [
+        {
+          "bg_change": "demon_laugh.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「勇者の剣がこの塔のどこかにあることはわかっていた。",
+          "auto_advance": true
+        },
+        {
+          "text": "　だからこそ、この剣を探して私は長い間この塔に居座っていたのだ。",
+          "auto_advance": true
+        },
+        {
+          "text": "　お前のような者が手にしていい代物ではない！」",
+          "bg_change": "demon_anger.png"
+        },
+        {
+          "text": "魔人は一歩前に踏み出し、挑発的に言い放つ。",
+          "bg_change": "black_image.png"
+        },
+        {
+          "text": "「まあよい…取引をしてやる。",
+          "bg_change": "demon_laugh.png",
+          "auto_advance": true
+        },
+        {
+          "text": "　剣とアリアーナを渡せば、お前一人は逃がしてやろう。",
+          "bg_change": "demon_laugh.png",
+          "auto_advance": true
+        },
+        {
+          "text": "　どうする？私の言うことに従うか、それともここで命を散らすか？」",
+          "bg_change": "demon_laugh.png",
+          "choices": [
+            {
+              "text": "１．剣を魔人に渡し、アリアーナを連れて逃げる。",
+              "choice_file": "End_bad_19_Confronting the devil_bad_1.json"
+            },
+            {
+              "text": "２．剣を渡し、自分だけ逃げる。",
+              "choice_file": "End_bad_20_Confronting the devil_bad_2.json"
+            },
+            {
+              "text": "３．剣を渡さずに戦う。",
+              "choice_file": "End_bad_21_Confronting the devil_bad_3.json"
+            },
+            {
+              "text": "４．姫に相談する。",
+              "choice_file": "B_09_Confronting the devil_good_1.json"
+            },
+            {
+              "text": "５．姫と剣を渡して命乞いをする。",
+              "choice_file": "B_09_Confronting the devil_good_2.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

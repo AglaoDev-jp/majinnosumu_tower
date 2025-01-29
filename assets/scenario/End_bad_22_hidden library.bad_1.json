@@ -1,0 +1,90 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_23",
+      "save_description": "魔人の弱点",
+      "flags": [
+        {
+          "bg_change": "dark, ominous magical book.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは強く引き寄せられるように、その古びた書物を手に取った。"
+        },
+        {
+          "text": "慎重にページをめくる。"
+        },
+        {
+          "text": "ページには魔人の弱点に関する古代の文字がびっしりと書かれていた。"
+        },
+        {
+          "text": "それらの文字を読み進める."
+        },
+        {
+          "text": "あなたは、魔人を倒すための貴重な情報を手に入れることができた。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "bad_end_23",
+      "save_description": "黒い霧",
+      "flags": [
+        {
+          "bg_change": "dark, ominous magical book that is fully opened, releasing eerie, shadowy smoke.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "しかし、読み進めるにつれて、ページから漂う冷たい風が部屋全体に広がり、",
+          "sound_effect": "怖い系リプレイ音.mp3.bin",
+          "auto_advance": true
+        },
+        {
+          "text": "書庫内の空気が一変する。"
+        },
+        {
+          "text": "書物から黒い霧が立ち上がり、あなたの周囲に重々しい呪文が響きだした。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_23",
+      "save_description": "ゲームオーバー：魔人に挑む者を永遠の眠りに",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "気づいたときには、あなたの身体が重くなり、まぶたが重く下がっていく。"
+        },
+        {
+          "text": "必死に抵抗しようとするが、呪いの力が強すぎる。"
+        },
+        {
+          "text": "目を閉じた瞬間、深い眠りに引き込まれ、意識は闇の中へと沈んでいった。"
+        },
+        {
+          "text": "この呪いは、魔人に挑む者を永遠の眠りに閉じ込めるものだった。"
+        },
+        {
+          "text": "あなたは魔人の秘密に迫りすぎたがゆえに、二度と目を覚ますことはなかった。"
+        },
+        {
+          "text": "ゲームオーバー",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

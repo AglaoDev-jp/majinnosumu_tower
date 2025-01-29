@@ -1,0 +1,31 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_02",
+      "save_description": "ゲームオーバー: 鍵穴に異物を詰まらせた",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        },
+        {
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "異物を詰まらせて取れなくなってしまった！",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "あなたは、牢屋で息絶えた。"
+        },
+        {
+          "text": "ゲームオーバー。",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Third-Party Libraries used in this project:
+
+## Pillow
+Copyright © 1997-2011 by Secret Labs AB
+Copyright © 1995-2011 Fredrik Lundh and Contributors.
+Copyright © 2010-2024 by Jeffrey A. Clark and contributors.
+Licensed under the Historical Permission Notice and Disclaimer (HPND) License.
+詳細は ./licenses/third_party/LICENSE-Pillow.txt をご確認ください。
+
+## Pygame
+Copyright © 2000-2024 Pygame developers.
+Licensed under the GNU Lesser General Public License (LGPL) v2.1.
+詳細は ./licenses/third_party/LGPL.txt をご確認ください。
+
+## cryptography
+Licensed under both the Apache License 2.0 and the BSD 3-Clause License.
+- Apache License 2.0: ./licenses/third_party/LICENSE.APACHE
+- BSD 3-Clause License: ./licenses/third_party/LICENSE.BSD
+
+## Tkinter
+TkinterはPythonに含まれるGUIライブラリですが、その動作にはTcl/Tkが使用されています。
+詳細は ./licenses/third_party/LICENSE.TclTk.txt をご確認ください。
+
+## フォントについて
+本プロジェクトでは、以下のフォントを使用しています：
+
+- **Noto Sans JP**
+    © 2014-2024 Google LLC  
+    Licensed under the SIL Open Font License, Version 1.1.  
+    詳細は ./licenses/OFL.txt をご確認ください。

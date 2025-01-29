@@ -1,0 +1,45 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bird_question_about_statue",
+      "save_description": "怪鳥の石像についての質問",
+      "flags": [
+        {
+          "bg_change": "monstrous bird1.png",
+          "music": "奇妙な話.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「なるほど、では封印の方法を知っているのか。」",
+          "sound_effect": "発見.mp3.bin"
+        },
+        {
+          "text": "怪鳥は少し考えるように目を閉じ、そしてふと何かを思い出したように目を開いた。"
+        },
+        {
+          "text": "「そういえば、お前がこの塔を上ってくる途中で、石像を見ただろう？」"
+        },
+        {
+          "text": "「その石像、何か話しかけてこなかったか？」",
+          "choices": [
+            {
+              "text": "１．「はい、石像が『守護の言葉を唱えよ』と言いました。」",
+              "choice_file": "C_07_monster_bird_good_end.json"
+            },
+            {
+              "text": "２．「はい、石像が、『何かを解き明かせ』と言っていたようでした。」",
+              "choice_file": "End_bad_28_monster_bird_bad_end.json"
+            },
+            {
+              "text": "３．「はい、石像が『注意深く進め』と言いました。」",
+              "choice_file": "End_bad_28_monster_bird_bad_end.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

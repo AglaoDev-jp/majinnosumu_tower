@@ -1,0 +1,121 @@
+{
+  "story": [
+    {
+      "page": 3,
+      "save_id": "bad_end_26",
+      "save_description": "私が、その新たな英雄だ！",
+      "flags": [
+        {
+          "bg_change": "hero stone statue.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは勇気を振り絞り、自信を持って言い放つ。"
+        },
+        {
+          "text": "「私が、その新たな英雄だ！」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_26",
+      "save_description": "赤く輝き",
+      "flags": [
+        {
+          "bg_change": "black_image.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "声が部屋中に響き渡り、石像がゆっくりと動き始めた。"
+        },
+        {
+          "text": "石像の目が突然赤く輝き出し、その剣を高々と掲げる。"
+        },
+        {
+          "text": "だが、その光景は恐ろしいほどに威圧的で、祝福の時とはまったく異なっている。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_26",
+      "save_description": "英雄でない者",
+      "flags": [
+        {
+          "bg_change": "fallen_hero_wrath.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "「愚か者…」",
+          "sound_effect": "重力魔法2.mp3.bin"
+        },
+        {
+          "text": "石像の口が動いたかのように、その声が再び響く。"
+        },
+        {
+          "text": "「真の英雄でない者が、この地を救うことは許されない…」",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "bad_end_26",
+      "save_description": "石化",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "突然、あなたの体は動かなくなり、全身が徐々に冷たく硬直していく。",
+          "sound_effect": "岩にヒビが入る.mp3.bin"
+        },
+        {
+          "text": "まるで石像と同じ運命を辿るかのように、あなたの肌は石化し始めた。",
+          "sound_effect": "岩にヒビが入る.mp3.bin"
+        },
+        {
+          "text": "必死にもがくが、無情にも石像の力は止まらない。",
+          "sound_effect": "岩にヒビが入る.mp3.bin",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "bad_end_26",
+      "save_description": "石と化し",
+      "flags": [
+        {
+          "bg_change": "escaping_prisoner_petrified.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "最後に見たのは、石像の目に宿る冷酷な光。",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "その瞬間、あなたの意識は闇に飲み込まれ、体は完全に石と化してしまった。"
+        },
+        {
+          "text": "ゲームオーバー",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

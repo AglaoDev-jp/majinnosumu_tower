@@ -1,0 +1,31 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_01",
+      "save_description": "ゲームオーバー: 鍵を取ろうとして倒れた",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        },
+        {
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "鍵が取れた拍子に床に頭を強く打ってしまった。",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "あなたは、そのまま目覚めることはなかった。"
+        },
+        {
+          "text": "ゲームオーバー。",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

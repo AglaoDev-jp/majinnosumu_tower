@@ -1,0 +1,179 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_09",
+      "save_description": "勇者だと名乗る。",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは戦士たちの前に立ち、覚悟を決めて勇者だと名乗る。"
+        },
+        {
+          "text": "胸の内では、真実を隠すことへの罪悪感が渦巻いていたが、",
+          "auto_advance": true
+        },
+        {
+          "text": "それでも彼らの期待に応えるために、あなたは嘘をつくことを選んだ。"
+        },
+        {
+          "text": "戦士たちは歓喜の声を上げ、あなたにひざまずいて忠誠を誓った",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "bad_end_09",
+      "save_description": "待ち望んだ勇者が現れた！",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「やっと…やっと我らの待ち望んだ勇者が現れた！」"
+        },
+        {
+          "text": "「この地に安寧をもたらしてくれるのだ！」"
+        },
+        {
+          "text": "彼らの顔には安堵と感謝の色が浮かび、あなたを神聖な存在として崇め始める。"
+        },
+        {
+          "text": "戦士たちはあなたを中心に、儀式を始めた。"
+        },
+        {
+          "text": "彼らの霊魂は一つに結びつき、まばゆい光を放ち始める。"
+        },
+        {
+          "text": "その光の中で、あなたの剣も一層強く輝きを増していく。",
+          "bg_change": "g_blade.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_09",
+      "save_description": "おかしい。何かが違う",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "assets/sound_effects/風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "しかし、その瞬間、剣が震え、やがてその光が不自然に揺れ動き始める。",
+          "bg_change": "g_blade.png"
+        },
+        {
+          "text": "戦士たちの中の一人が不安そうに顔を上げ、あなたを見つめる。"
+        },
+        {
+          "text": "「…おかしい。何かが違う…」"
+        },
+        {
+          "text": "彼の声に呼応するように、他の戦士たちもざわめき始める。"
+        },
+        {
+          "text": "やがて、一人の戦士があなたに向かって叫んだ。"
+        },
+        {
+          "text": "「お前は…本当に勇者なのか！？剣の輝きが、かつての勇者とは違う…！」"
+        },
+        {
+          "text": "戦士たちの目は次第に疑念に満ち、その視線は冷たくなっていく。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "bad_end_09",
+      "save_description": "この者は偽物だ！",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "「この者は偽物だ！我らを欺いていたのだ！」",
+          "sound_effect": "assets/sound_effects/重力魔法2.mp3.bin"
+        },
+        {
+          "text": "怒りと失望に満ちた声が響き渡る。"
+        },
+        {
+          "text": "戦士たちは一斉に立ち上がり、その霊体が不気味に膨れ上がり始める。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "bad_end_09",
+      "save_description": "…偽りの者よ",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts cold soul.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「許すことはできぬ…偽りの者よ、ここで永遠に朽ち果てるがいい！」",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "その言葉と共に、彼らの霊魂があなたに襲いかかる。"
+        },
+        {
+          "text": "無数の手があなたを絡め取り、逃げ場を奪い取る。"
+        },
+        {
+          "text": "あなたは剣を振りかざすが、力が抜けてまともに動かせない。"
+        },
+        {
+          "text": "やがて、冷たい霊魂に体を包まれ、意識が遠のいていく。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "bad_end_09",
+      "save_description": "ゲームオーバー：永遠の闇に囚われる",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "最後に見たのは、戦士たちの無情な顔と、闇に飲み込まれていく光景だった。"
+        },
+        {
+          "text": "こうして、あなたは偽りの勇者として、永遠に囚われることになった。"
+        },
+        {
+          "text": "あなたが選んだ道は、勇者の名を冒涜する者としての哀れな末路だった。"
+        },
+        {
+          "text": "ゲームオーバー",
+          "bg_change": "skeleton_bad.png",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

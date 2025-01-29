@@ -1,0 +1,104 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "unlock_door",
+      "save_description": "看守の遺体",
+      "flags": [
+        {
+          "bg_change": "black_image.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは一度立ち止まり、あたりをよく観察することにした。"
+        },
+        {
+          "text": "部屋の隅に目を向けると、泡を吹いて倒れている看守を見つけた。"
+        },
+        {
+          "text": "死んではいないようだが、この場所で一体何があったのだろうか？"
+        },
+        {
+          "text": "看守はその場で何かを守ろうとしていたかのように手を握りしめている。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "explore_hall",
+      "save_description": "小さな鍵",
+      "flags": [
+        {
+          "bg_change": "black_image.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは慎重に近づき、看守のポケットを探ってみる。"
+        },
+        {
+          "text": "小さな鍵が握られていた。",
+          "sound_effect": "発見.mp3.bin",
+          "bg_change": "key1.png",
+          "flags": [
+            {
+              "stop_music": true
+            }
+          ]
+        },
+        {
+          "text": "看守が隠していたこの鍵こそが、ドアを開けるためのものに違いない。",
+          "bg_change": "key1.png",
+          "music": "strange_lullaby.mp3.bin"
+        },
+        {
+          "text": "あなたは鍵を手に取り、ドアの鍵穴に差し込んで回す。"
+        },
+        {
+          "text": "カチッという音とともに、重いドアがゆっくりと開き始めた。",
+          "sound_effect": "牢屋の扉を閉める.mp3.bin"
+        },
+        {
+          "text": "あなたは、慎重に次の部屋へと進む。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hall_investigation",
+      "save_description": "分かれ道",
+      "flags": [
+        {
+          "music": "strange_lullaby.mp3.bin"
+        },
+        {
+          "bg_change": "path_branch.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "ここから先は分かれ道のようだ。"
+        },
+        {
+          "text": "どちらへ進もうか？：",
+          "choices": [
+            {
+              "text": "１．右へ進む。",
+              "choice_file": "A_04_hall.json"
+            },
+            {
+              "text": "２．左へ進む。",
+              "choice_file": "B_04_potion_room.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

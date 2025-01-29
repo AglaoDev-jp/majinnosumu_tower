@@ -1,0 +1,146 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "unlock_door",
+      "save_description": "扉の解除",
+      "flags": [
+        {
+          "bg_change": "cell_door_unlocked.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "鍵は古びており、簡単に壊すことができた。",
+          "sound_effect": "発見.mp3.bin"
+        },
+        {
+          "text": "あなたは、重い扉を押し開けた。"
+        },
+        {
+          "text": "扉の向こうには、階段が続いていた。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "guard's room",
+      "save_description": "独房から脱出",
+      "flags": [
+        {
+          "bg_change": "guard's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "塔の独房から脱出したたあなたは、暗く湿った石の廊下を進み、ある部屋に辿り着いた。"
+        },
+        {
+          "text": "部屋の中に足を踏み入れると、薄暗い光がわずかに差し込む中で、家具や物品が見えてくる。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "guard's room",
+      "save_description": "独房の監視所",
+      "flags": [
+        {
+          "bg_change": "guard's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "まず目に入ったのは、部屋の中央に置かれた古い木製の机だった。"
+        },
+        {
+          "text": "机の表面は傷だらけで、所々にインクの染みが見える。"
+        },
+        {
+          "text": "机の上には乱雑に置かれた書類の山と、所々錆びた鍵の束が無造作に置かれている。"
+        },
+        {
+          "text": "この部屋は、独房の監視に使われていたのではないかと推測される。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "guard's room",
+      "save_description": "監視所の探索",
+      "flags": [
+        {
+          "bg_change": "guard's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "その隣には、大きなチェストが鎮座している。"
+        },
+        {
+          "text": "厚い木材で作られたチェストは重厚で、表面には古い装飾が施されている。"
+        },
+        {
+          "text": "鍵穴の部分には小さな錠前が付いており、中に何かが隠されている可能性を示唆している。"
+        },
+        {
+          "text": "チェストの存在感から、単なる物置きではないことを感じさせる。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hall_investigation",
+      "save_description": "監視所をどう抜けよう？",
+      "flags": [
+        {
+          "music": "strange_lullaby.mp3.bin"
+        },
+        {
+          "bg_change": "guard's room.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "部屋の奥には重厚な木製の扉がある。"
+        },
+        {
+          "text": "扉は古びた鉄の蝶番で支えられ、無数の傷跡がついている。"
+        },
+        {
+          "text": "誰かが強引にこじ開けようとした形跡がある。"
+        },
+        {
+          "text": "しかしそれでも扉は頑丈で、簡単に開きそうにない。"
+        },
+        {
+          "text": "さて、どうしようか？：",
+          "music": "奇妙な話.mp3.bin",
+          "choices": [
+            {
+              "text": "１．チェストを調べてみる。何か役立つものや脱出の手がかりが見つかるかもしれない。",
+              "choice_file": "End_bad_03_guard's room.json"
+            },
+            {
+              "text": "２．鍵束の中から正しい鍵を探す。時間はかかるが、ひとつづつ試してみることにする。",
+              "choice_file": "End_bad_04_guard's room.json"
+            },
+            {
+              "text": "３．あたりをよく観察する。一度立ち止まり、見回してみることにする。",
+              "choice_file": "03_path_branch.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

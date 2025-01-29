@@ -1,0 +1,819 @@
+{
+  "ending": [
+    {
+      "name": "例文",
+      "bg_image": "画像ファイル（ファイル名.拡張子）",
+      "theme_music": "音楽ファイル（ファイル名.拡張子）",
+      "credits": [
+        {
+          "text": "デフォルトは中心"
+        },
+        {
+          "text": "左に表記",
+          "position": "left"
+        },
+        {
+          "text": "右に表記",
+          "position": "right"
+        },
+        {
+          "text": "中心に表記",
+          "position": "center"
+        },
+        {
+          "text": "〜END〜",
+          "position": "center"
+        }
+      ]
+    },
+    {
+      "name": "ending1",
+      "bg_image": "End grassland.png",
+      "theme_music": "プレリュード第2番「名前を入力してください」.mp3.bin",
+      "loop": false,
+      "credits": [
+        {
+          "text": " 制作 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "プログラミング: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "デザイン: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "ストーリー: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用素材（敬称略）"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 音楽: フリーBGM DOVA-SYNDROME "
+        },
+        {
+          "text": "【使用楽曲】"
+        },
+        {
+          "text": "         [基本BGM] 「strange lullaby」 shimtone "
+        },
+        {
+          "text": "          [選択肢] 「奇妙な話」        Heitaro Ashibe "
+        },
+        {
+          "text": "      [霊との遭遇] 「透明な亡霊」      Heitaro Ashibe "
+        },
+        {
+          "text": "            [正解] 「発見」            のる "
+        },
+        {
+          "text": "        [鏡の部屋] 「静かな夜に」      のる "
+        },
+        {
+          "text": "          [不正解] 「怖い系リプレイ音」 Causality Sound "
+        },
+        {
+          "text": "         [戦闘曲]  「ENEMY_ENCOUNTER」 MagaMaga "
+        },
+        {
+          "text": "[Ending]  「プレリュード第2番「名前を入力してください」」 秦暁 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "効果音: 効果音ラボ"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "フォント: Noto Sans JP"
+        },
+        {
+          "text": "© 2014-2024 Google LLC"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用言語 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Python 3.12.5 "
+        },
+        {
+          "text": " © Python Software Foundation."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 標準ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Tkinter "
+        },
+        {
+          "text": "© Regents of the University of California, Sun Microsystems, Inc.,"
+        },
+        {
+          "text": "  Scriptics Corporation, and other parties"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " json "
+        },
+        {
+          "text": " os "
+        },
+        {
+          "text": " sys "
+        },
+        {
+          "text": " io "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 外部ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pillow "
+        },
+        {
+          "text": "(Python Imaging Library)"
+        },
+        {
+          "text": "The Python Imaging Library (PIL) is"
+        },
+        {
+          "text": " © 1997-2011 by Secret Labs AB"
+        },
+        {
+          "text": " © 1995-2011 by Fredrik Lundh and contributors"
+        },
+        {
+          "text": "Pillow is the friendly PIL fork. It is"
+        },
+        {
+          "text": " © 2010-2024 by Jeffrey A. Clark and contributors"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pygame "
+        },
+        {
+          "text": " © 2000-2024 Pygame developers."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "暗号化: cryptography"
+        },
+        {
+          "text": "Copyright (c) 2013-2024, The cryptography developers. All rights reserved."
+        },
+        {
+          "text": "OpenSSL 3.4.0 22 Oct 2024"
+        },
+        {
+          "text": "Copyright (c) 1998-2024 The OpenSSL Project Authors"
+        },
+        {
+          "text": "Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson"
+        },
+        {
+          "text": "All rights reserved. "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "難読化: Cython"
+        },
+        {
+          "text": "© 2007-2023 The Cython Project Developers"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "実行ファイル化: PyInstaller"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "使用エディター: Visual Studio Code (VSC)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "〜END〜"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Presented by ChatGPT (AI), AglaoDev-jp"
+        },
+        {
+          "text": "Version 5.0.0 (2024年12月)"
+        },
+        {
+          "text": "© 2024 AglaoDev-jp"
+        }
+      ]
+    },
+    {
+      "name": "ending2",
+      "bg_image": "End grassland princess.png",
+      "theme_music": "プレリュード第2番「名前を入力してください」.mp3.bin",
+      "loop": false,
+      "credits": [
+        {
+          "text": " 制作 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "プログラミング: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "デザイン: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "ストーリー: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用素材（敬称略）"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 音楽: フリーBGM DOVA-SYNDROME "
+        },
+        {
+          "text": "【使用楽曲】"
+        },
+        {
+          "text": "         [基本BGM] 「strange lullaby」 shimtone "
+        },
+        {
+          "text": "          [選択肢] 「奇妙な話」        Heitaro Ashibe "
+        },
+        {
+          "text": "      [霊との遭遇] 「透明な亡霊」      Heitaro Ashibe "
+        },
+        {
+          "text": "            [正解] 「発見」            のる "
+        },
+        {
+          "text": "        [鏡の部屋] 「静かな夜に」      のる "
+        },
+        {
+          "text": "          [不正解] 「怖い系リプレイ音」 Causality Sound "
+        },
+        {
+          "text": "         [戦闘曲]  「ENEMY_ENCOUNTER」 MagaMaga "
+        },
+        {
+          "text": "[Ending]  「プレリュード第2番「名前を入力してください」」 秦暁 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "効果音: 効果音ラボ"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "フォント: Noto Sans JP"
+        },
+        {
+          "text": "© 2014-2024 Google LLC"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用言語 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Python 3.12.5 "
+        },
+        {
+          "text": " © Python Software Foundation."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 標準ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Tkinter "
+        },
+        {
+          "text": "© Regents of the University of California, Sun Microsystems, Inc.,"
+        },
+        {
+          "text": "  Scriptics Corporation, and other parties"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " json "
+        },
+        {
+          "text": " os "
+        },
+        {
+          "text": " sys "
+        },
+        {
+          "text": " io "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 外部ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pillow "
+        },
+        {
+          "text": "(Python Imaging Library)"
+        },
+        {
+          "text": "The Python Imaging Library (PIL) is"
+        },
+        {
+          "text": " © 1997-2011 by Secret Labs AB"
+        },
+        {
+          "text": " © 1995-2011 by Fredrik Lundh and contributors"
+        },
+        {
+          "text": "Pillow is the friendly PIL fork. It is"
+        },
+        {
+          "text": " © 2010-2024 by Jeffrey A. Clark and contributors"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pygame "
+        },
+        {
+          "text": " © 2000-2024 Pygame developers."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "暗号化: cryptography"
+        },
+        {
+          "text": "Copyright (c) 2013-2024, The cryptography developers. All rights reserved."
+        },
+        {
+          "text": "OpenSSL 3.4.0 22 Oct 2024"
+        },
+        {
+          "text": "Copyright (c) 1998-2024 The OpenSSL Project Authors"
+        },
+        {
+          "text": "Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson"
+        },
+        {
+          "text": "All rights reserved. "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "難読化: Cython"
+        },
+        {
+          "text": "© 2007-2023 The Cython Project Developers"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "実行ファイル化: PyInstaller"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "使用エディター: Visual Studio Code (VSC)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "〜END〜"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Presented by ChatGPT (AI), AglaoDev-jp"
+        },
+        {
+          "text": "Version 5.0.0 (2024年12月)"
+        },
+        {
+          "text": "© 2024 AglaoDev-jp"
+        }
+      ]
+    },
+    {
+      "name": "ending3",
+      "bg_image": "End monstrous bird.png",
+      "theme_music": "プレリュード第2番「名前を入力してください」.mp3.bin",
+      "loop": false,
+      "credits": [
+        {
+          "text": " 制作 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "プログラミング: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "デザイン: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": "ストーリー: AglaoDev-jp, ChatGPT(AI)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用素材（敬称略）"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 音楽: フリーBGM DOVA-SYNDROME "
+        },
+        {
+          "text": "【使用楽曲】"
+        },
+        {
+          "text": "         [基本BGM] 「strange lullaby」 shimtone "
+        },
+        {
+          "text": "          [選択肢] 「奇妙な話」        Heitaro Ashibe "
+        },
+        {
+          "text": "      [霊との遭遇] 「透明な亡霊」      Heitaro Ashibe "
+        },
+        {
+          "text": "            [正解] 「発見」            のる "
+        },
+        {
+          "text": "        [鏡の部屋] 「静かな夜に」      のる "
+        },
+        {
+          "text": "          [不正解] 「怖い系リプレイ音」 Causality Sound "
+        },
+        {
+          "text": "         [戦闘曲]  「ENEMY_ENCOUNTER」 MagaMaga "
+        },
+        {
+          "text": "[Ending]  「プレリュード第2番「名前を入力してください」」 秦暁 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "効果音: 効果音ラボ"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "フォント: Noto Sans JP"
+        },
+        {
+          "text": "© 2014-2024 Google LLC"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用言語 "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Python 3.12.5 "
+        },
+        {
+          "text": " © Python Software Foundation."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 使用ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 標準ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Tkinter "
+        },
+        {
+          "text": "© Regents of the University of California, Sun Microsystems, Inc.,"
+        },
+        {
+          "text": "  Scriptics Corporation, and other parties"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " json "
+        },
+        {
+          "text": " os "
+        },
+        {
+          "text": " sys "
+        },
+        {
+          "text": " io "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " 外部ライブラリ "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pillow "
+        },
+        {
+          "text": "(Python Imaging Library)"
+        },
+        {
+          "text": "The Python Imaging Library (PIL) is"
+        },
+        {
+          "text": " © 1997-2011 by Secret Labs AB"
+        },
+        {
+          "text": " © 1995-2011 by Fredrik Lundh and contributors"
+        },
+        {
+          "text": "Pillow is the friendly PIL fork. It is"
+        },
+        {
+          "text": " © 2010-2024 by Jeffrey A. Clark and contributors"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": " Pygame "
+        },
+        {
+          "text": " © 2000-2024 Pygame developers."
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "暗号化: cryptography"
+        },
+        {
+          "text": "Copyright (c) 2013-2024, The cryptography developers. All rights reserved."
+        },
+        {
+          "text": "OpenSSL 3.4.0 22 Oct 2024"
+        },
+        {
+          "text": "Copyright (c) 1998-2024 The OpenSSL Project Authors"
+        },
+        {
+          "text": "Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson"
+        },
+        {
+          "text": "All rights reserved. "
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "難読化: Cython"
+        },
+        {
+          "text": "© 2007-2023 The Cython Project Developers"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "実行ファイル化: PyInstaller"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "使用エディター: Visual Studio Code (VSC)"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "〜END〜"
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "Presented by ChatGPT (AI), AglaoDev-jp"
+        },
+        {
+          "text": "Version 5.0.0 (2024年12月)"
+        },
+        {
+          "text": "© 2024 AglaoDev-jp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "devil's room",
+      "save_description": "助けるのを躊躇",
+      "flags": [
+        {
+          "bg_change": "a princess up.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたが助けるのを躊躇すると、アリアーナ王女は悲しそうな顔をして言葉を発する。",
+          "sound_effect": "怖い系リプレイ音.mp3.bin"
+        },
+        {
+          "text": "「そんな…どうして…私にはもう、誰も助けてくれる人がいないのですか…」"
+        },
+        {
+          "text": "アリアーナ王女が、悲しげに口を開く。",
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "devil's room",
+      "save_description": "考え直す2",
+      "flags": [
+        {
+          "music": "strange_lullaby.mp3.bin"
+        },
+        {
+          "bg_change": "A prison like a giant birdcage.png"
+        }
+      ],
+      "segments": [
+        {
+          "text": "彼女の言葉に胸が痛んだあなたは、再び考え直すことにする。:",
+          "choices": [
+            {
+              "text": "１．助ける。",
+              "choice_file": "B_08_Majin_room_loop_1.json"
+            },
+            {
+              "text": "２．周囲を調べる。",
+              "choice_file": "B_09_Confronting the devil.json"
+            }
+          ],
+          "arrow_icon": "page_turn.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+    "story": [
+      {
+        "page": 1,
+        "save_id": "",
+        "save_description": "フラグの説明",
+        "flags": [
+          {
+            "bg_change": "black_image.png",
+            "music": "strange_lullaby.mp3.bin"
+          }
+        ],
+        "segments": [
+          {
+            "text": "bg_changeフラグは、テキスト単位での画像変更もできます。",
+            "bg_change": "cell_door.png"
+          },
+          {
+            "text": "musicフラグで音楽の変更。",
+            "music": "strange_lullaby.mp3.bin"
+          },
+          {
+            "text": "パスはスクリプトで作成するのでファイル名と拡張子でOKです。",
+            "music": "strange_lullaby.mp3.bin"
+          },
+          {
+            "text": "これは自動で進むテキストです。",
+                    "auto_advance": true,
+                    "color": "yellow"
+          },
+          {
+            "text": "auto_advanceフラグで改行が再現できます。"
+          },
+          {
+              "text": "colorと色指定で文字の色を変更できます。",
+              "color": "lightgray"
+          },
+          {
+              "text": "これは手動で進むテキストです。",
+              "color": "white"
+          },
+          {
+              "text": "これはサウンドエフェクトフラグです。",
+              "sound_effect": "重力魔法2.mp3.bin"
+          },
+          {
+              "text": "stop_musicで音楽をストップできます。セグメント単位でも使用可能です。",
+              "stop_music": true
+          },
+          {
+            "text": "フラグは併用することもできます。",
+            "bg_change": "cell_door.png",
+            "music": "strange_lullaby.mp3.bin",
+            "sound_effect": "重力魔法2.mp3.bin",
+            "color": "black"
+          },
+          {
+            "text": "arrow_iconフラグで矢印画像を変更できます。",
+            "arrow_icon": "page_turn.png"
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "save_id": "",
+        "save_description": "セグメントの説明",
+        "flags": [
+          {
+            "bg_change": "solitary_cell.png",
+            "music": "strange_lullaby.mp3.bin"
+          }
+        ],
+        "segments": [
+          {
+            "text": "セグメント単位で画像と音楽を変更できます。",
+            "auto_advance": true
+          },
+          {
+            "text": "その場合にはflagsでリストにまとめてください。",
+            "auto_advance": true
+          },
+          {
+            "text": "画像の場合、セグメント単位での設定では変更しない限りその設定が続きます",
+            "auto_advance": true
+          },
+          {
+            "text": "flagsは、設定しなくても動作します。"
+          },
+          {
+            "text": "pageの数字やsave_idの内容も今回は動作に干渉しませんが、設定するとわかりやすいです。"
+          },
+          {
+            "text": "ただし‘save_description‘は、セーブ時の名前になるのでわかりやすい名前にしてください。",
+            "arrow_icon": "page_turn.png"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "save_id": "",
+        "save_description": "選択肢について",
+        "flags": [
+          {
+            "music": "奇妙な話.mp3.bin"
+          },
+          {
+            "bg_change": "cell_door.png"
+          }
+        ],
+        "segments": [
+          {
+            "text": "choicesフラグで選択肢を作成できます。：",
+            "choices": [
+              {
+                "text": "１．←　こんな風に数字分けするとわかりやすいかもしれません",
+                "choice_file": "End_bad_01_start_point.json"
+              },
+              {
+                "text": "２．choice_fileフラグで次のファイルに飛べます。",
+                "choice_file": "End_bad_02_start_point.json"
+              },
+              {
+                "text": "３．ver.5ではパスはスクリプトで組み立てるので、ファイル名と拡張子だけでOKです。",
+                "choice_file": "02_guard's room.json"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
