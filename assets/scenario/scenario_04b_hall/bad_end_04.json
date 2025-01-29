@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_04",
+            "save_description": "ゲームオーバー: テーブルの下に潜むネズミ",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/black_image.png"}
+            ],
+            "segments": [
+                {"text": "テーブルの下には、大量のネズミが！",
+                "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "あなたは、ショックで気絶してしまった。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

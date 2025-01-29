@@ -1,0 +1,40 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "dark corridor ",
+      "save_description": "左の回廊へ",
+      
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor6.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは迷いながらも左の回廊へ進むことを選んだ。" },
+        { "text": "回廊は進むにつれてどんどん狭くなり、まるで壁が押し寄せてくるかのように感じる。" },
+        { "text": "突然、壁が激しく軋む音が響き渡り、回廊が崩れ始めた。" ,
+        "music": "../assets/sound_effects/地響き.mp3"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "dark corridor ",
+      "save_description": "重たい瓦礫",
+      "flags": [
+        {
+          "bg_change": "../assets/images/black_image.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "あなたは必死に逃げようとするが、逃げ道はすでに塞がれている。" ,
+          "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+        { "text": "重たい瓦礫が次々と降り注ぎ、あなたは暗闇の中に埋もれてしまった。" },
+        { "text": "ゲームオーバー" ,
+        "bg_change": "../assets/images/skeleton_bad.webp"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+## 音源について
+本ゲームファイルには音楽や効果音の音源自体は含まれておりません。ゲームで使用する音楽と効果音は、以下の提供元サイトからダウンロードをお願いします。
+
+### 音楽
+提供: フリーBGM DOVA-SYNDROME  
+- 「strange lullaby」 - shimtone  
+- 「奇妙な話」 - Heitaro Ashibe  
+- 「透明な亡霊」 - Heitaro Ashibe  
+- 「発見」 - のる  
+- 「静かな夜に」 - のる  
+- 「怖い系リプレイ音」 - Causality Sound  
+- 「ENEMY_ENCOUNTER」 - MagaMaga  
+- 「プレリュード第2番「名前を入力してください」」 - 秦暁 

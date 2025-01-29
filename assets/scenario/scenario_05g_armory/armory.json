@@ -1,0 +1,84 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "tapestry_discovery",
+      "save_description": "タペストリーの裏でスイッチを発見",
+      "flags": [
+        {
+          "bg_change": "../assets/images/tapestry_switch.webp",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "タペストリーの裏に、隠し扉のスイッチを見つけた。" ,
+          "sound_effect": "../assets/audio/発見.mp3"},
+        { "text": "扉を抜けると次のフロアへと続く。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "armory_entry",
+      "save_description": "武器庫に入る",
+      "flags": [
+        {
+          "bg_change": "../assets/images/armory.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "このフロアは武器庫のようだ。" },
+        { "text": "足を踏み入れると、薄暗い照明の中に浮かび上がる古代の武器や甲冑の数々が目に入る。" },
+        { "text": "壁一面には剣や槍、盾や鎧が整然と並べられている。" },
+        { "text": "部屋の中央には大きな甲冑が展示されており、その迫力に圧倒される。" },
+        { "text": "空気はひんやりとしており、古い鉄の匂いが漂っている。" },
+        { "text": "奥へと足を進める。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "armor_attack",
+      "save_description": "甲冑の襲撃",
+      "flags": [
+        {
+          "bg_change": "../assets/images/attacking_armored_bone.webp",
+          "music": "../assets/audio/ENEMY_ENCOUNTER.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "すると突然、展示されていた甲冑が動き出した。" },
+        { "text": "恐ろしい音を立ててこちらに向かってくるではないか！" },
+        { "text": "心臓が激しく鼓動する中、何とかしてこの危機を脱出しなければならない。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "decision_point",
+      "save_description": "決断の時",
+      "flags": [
+        { "bg_change": "../assets/images/attacking_armored_bone.webp" ,
+          "music": "../assets/audio/ENEMY_ENCOUNTER.mp3"}
+      ],
+      "segments": [
+        { "text": "慎重に行動しないと命を落とすことになるだろう。決断を下す時が来た。" },
+        {
+          "text": "選択肢は三つ。：",
+          "choices": [
+            {
+              "text": "１．甲冑の間に隠れて進むことを試みる。しかし、見つかるリスクは大きいだろう。",
+              "choice_file": "../assets/scenario/scenario_05g_armory/bad_end_05.json"
+            },
+            {
+              "text": "２．壁に掛けられた古い剣手に取る。この剣には何か特別な力があるかもしれない。",
+              "choice_file": "../assets/scenario/scenario_06g_Tomb of the Warriors/Tomb of the Warriors.json"
+            },
+            {
+              "text": "３．近くの盾を使って防御する。攻撃を防げるかどうかは不明だが、試してみようか。",
+              "choice_file": "../assets/scenario/scenario_05g_armory/bad_end_06.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "explore_hall",
+      "save_description": "広間の探索",
+      "flags": [
+        {"bg_change": "../assets/images/hall.webp",
+         "music": "../assets/audio/strange_lullaby.mp3"}
+      ],
+      "segments": [
+        {"text": "長い通路の先は、広間だった。"},
+        {"text": "足を踏み入れると、その不釣り合いな豪華さに圧倒される。"},
+        {"text": "天井からは豪華なシャンデリア。"},
+        {"text": "壁一面には古代の芸術を思わせるタペストリーが掛けられている。"},
+        {"text": "床には豪華な絨毯が敷かれ、中央には巨大なテーブルがある。"},
+        {"text": "テーブルは一見豪華ではあるが、食器類が散乱し、残飯が腐り果てている。"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hall_investigation",
+      "save_description": "広間の調査",
+      "flags": [
+        {"music": "../assets/audio/奇妙な話.mp3"},
+        {"bg_change": "../assets/images/hall.webp"}
+      ],
+      "segments": [
+        {"text": "隅々まで注意深く見渡すと、いくつか異変を見つけることができた。"},
+        {
+          "text": "さて、どうしようか。：",
+          "choices": [
+            {"text": "１．シャンデリアのチェーンを引いてみる。何か仕掛けがあるかもしれない。", "choice_file": "../assets/scenario/scenario_04b_hall/bad_end_03.json"},
+            {"text": "２．巨大なテーブルの下を調べる。その下には何か秘密があるかもしれない。", "choice_file": "../assets/scenario/scenario_04b_hall/bad_end_04.json"},
+            {"text": "３．壁に掛けられたタペストリー。タペストリーの裏に手がかりがあるかもしれない。", "choice_file": "../assets/scenario/scenario_05g_armory/armory.json"},
+            {"text": "４．隣の部屋に行ってみる。", "choice_file": "../assets/scenario/scenario_b05_hidden library/hidden library.json"}
+          ]
+        }
+      ]
+    }
+  ]
+}

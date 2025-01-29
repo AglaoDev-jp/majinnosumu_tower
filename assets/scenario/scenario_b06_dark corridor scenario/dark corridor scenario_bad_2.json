@@ -1,0 +1,54 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "dark corridor ",
+      "save_description": "ここで迎え撃つ",
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor4.webp",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "あなたは何かが後をつけている気配を感じ、立ち止まった。" },
+        { "text": "ここで迎え撃つ覚悟を決めた。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "dark corridor ",
+      "save_description": "回廊の奥から",
+      "flags": [
+        {
+          "bg_change": "../assets/images/black_image.png"
+        }
+      ],
+      "segments": [
+        { "text": "しばらくその場で耳を澄ませ、何が起きるのかを待つ。" },
+        { "text": "突然、回廊の奥から黒い霧が立ち上がり、その霧がゆっくりとあなたに近づいてくる。" },
+        { "text": "霧に触れた瞬間、冷たい感触が全身を包み込み、動けなくなる。" },
+        { "text": "身体が凍りついたように重く、呼吸すらも困難になっていく。"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "dark corridor ",
+      "save_description": "静かな無の中に",
+      "flags": [
+        {
+          "bg_change": "../assets/images/black_image.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "必死にもがくが、霧の力はどんどん強まり、やがて完全にあなたを飲み込んだ。" ,
+          "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+        { "text": "暗闇と静寂の中で、あなたの意識は遠のき、全てが冷たく静かな無の中に消え去った。" },
+        { "text": "あなたは、その場に留まりすぎたことで、永遠に暗闇に閉じ込められることになった。" },
+        { "text": "ゲームオーバー",
+        "bg_change": "../assets/images/skeleton_bad.webp"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_07",
+            "save_description": "ゲームオーバー: 有毒な薬品を飲む",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/potion_bottle.webp"}
+            ],
+            "segments": [
+                {"text": "飲んだ薬は、どうやら下剤だったようだ。",
+                 "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "あなたは出口を探す前に、トイレを探す羽目になってしまった！"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

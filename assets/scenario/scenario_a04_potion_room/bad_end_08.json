@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_08",
+            "save_description": "ゲームオーバー: 本棚の後ろには何もなかった",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/black_image.png"}
+            ],
+            "segments": [
+                {"text": "本棚の後ろには何もなく、時間を無駄にしてしまった。",
+                "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "あなたはすべてをあきらめた。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

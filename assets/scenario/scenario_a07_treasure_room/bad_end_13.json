@@ -1,0 +1,21 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_13",
+            "save_description": "ゲームオーバー: 宝箱が爆発する",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/treasure_chest_explosion.webp"}
+            ],
+            "segments": [
+                {"text": "宝箱が爆発した！罠だったようだ。", 
+                "sound_effect": "../assets/sound_effects/雷魔法4.mp3"},
+                {"text": "あなたは、爆風で吹き飛ばされてしまった！",
+                "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

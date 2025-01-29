@@ -1,0 +1,65 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Confronting the devil",
+      "save_description": "剣を渡さない",
+      "flags": [
+        {
+          "bg_change": "../assets/images/broadsword.webp",
+        "music": "../assets/sound_effects/風に揺れる草木1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "魔人の脅しに対して、あなたは決して剣を渡さないと心に決める。" },
+        { "text": "アリアーナを守るため、この剣を手放すわけにはいかない。" },
+        { "text": "強い決意を胸に、魔人に立ち向かう。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Confronting the devil",
+      "save_description": "剣を抜こう",
+      "flags": [
+        {
+          "bg_change": "../assets/images/demon_anger.webp",
+          "music": "../assets/sound_effects/風に揺れる草木1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "魔人はあなたの姿を見て嘲笑を浮かべる。" },
+        { "text": "「お前のような者が、勇者の剣を使いこなせるとでも思ったか？無駄な抵抗だ！」" },
+        { "text": "あなたは剣を抜こうとする。" },
+        { "text": "しかし、どんなに力を込めても、その刃はわずかに動くだけで、それ以上進まない。"},
+        { "text": "必死に剣を抜こうとするが、剣はまるで主人の指示を拒むように動かない。" },
+        { "text": "汗が額から流れ落ち、焦りが心を蝕んでいく。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Confronting the devil",
+      "save_description": "お前は勇者ではない",
+      "flags": [
+        { "bg_change": "../assets/images/demon_laugh.webp",
+        "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "「そうか、お前が本当の勇者ではないことを、この剣もよく知っているのだ。」",
+        "sound_effect": "../assets/sound_effects/重力魔法2.mp3" },
+        { "text": "魔人は手を伸ばし、あなたの持つ剣を掴む。" ,
+      "bg_change": "../assets/images/broadsword.webp"},
+        { "text": "魔人は満足そうに笑いながら剣を掲げる。" ,
+      "bg_change": "../assets/images/broadsword.webp"},  
+        { "text": "「これで終わりだ。勇者の剣は私のもの、そしてお前たちの命も私の手の中にある。」" },
+        { "text": "一瞬のうちに、魔人の手から暗黒のエネルギーが放たれる。" ,
+        "bg_change": "../assets/images/black_image.png",
+        "sound_effect": "../assets/sound_effects/雷魔法4.mp3"},
+        { "text": "そのまま何もかもが無に帰し、二度と目覚めることはなかった。" ,
+        "bg_change": "../assets/images/black_image.png",
+        "sound_effect": "../assets/audio/怖い系リプレイ音.mp3"},
+        { "text": "ゲームオーバー"}
+      ]
+    }
+  ]
+}
