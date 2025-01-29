@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_03",
+            "save_description": "ゲームオーバー: シャンデリアの下敷きになる",
+            "flags": [
+                {"bg_change": "../assets/images/chandelier_fall.webp"},
+                {"stop_music": true}
+            ],
+            "segments": [
+                {"text": "シャンデリアが落ちてきて、あなたは押しつぶされてしまった。",
+                "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+                {"text": "その重さで、もうあなたは動けない！"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Confronting the devil",
+      "save_description": "勇者の剣を魔人に",
+      "flags": [
+        {
+          "bg_change": "../assets/images/broadsword.webp",
+        "music": "../assets/sound_effects/風に揺れる草木1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは、アリアーナの命を守るために勇者の剣を魔人に差し出すことを決断した。" },
+        { "text": "魔人は冷笑を浮かべながら手を伸ばし、ゆっくりと剣を受け取る。" },
+        { "text": "「ついに手に入れたぞ、勇者の剣を！これで世界を支配する力を持つことができる！」" },
+        { "text": "その瞬間、あなたとアリアーナの心には不安が広がる。" },
+        { "text": "アリアーナはあなたを見つめ、悲しみと絶望の表情を浮かべている。"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Confronting the devil",
+      "save_description": "お前たち価値はない",
+      "flags": [
+        {
+          "bg_change": "../assets/images/demon_anger.webp",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "魔人が剣を手に入れたことで、彼の力はさらに増大し、" ,
+        "sound_effect": "../assets/sound_effects/重力魔法2.mp3"},
+        { "text": "周囲の空気が重く、冷たくなっていくのが感じられる。" },
+        { "text": "魔人は再びあなたに目を向ける。" },
+        { "text": "「お前たちは、もう価値はない。」"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Confronting the devil",
+      "save_description": "暗黒のエネルギー",
+      "flags": [
+        {
+          "bg_change": "../assets/images/black_image.png"
+        }
+      ],
+      "segments": [
+        { "text": "魔人の手から暗黒のエネルギーが放たれ、あなたとアリアーナを飲み込む。",
+        "sound_effect": "../assets/sound_effects/雷魔法4.mp3" },
+        { "text": "目の前が暗転し、あなたは意識を失った。" ,
+        "bg_change": "../assets/images/black_image.png",
+          "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+        { "text": "そのまま何もかもが無に帰し、二度と目覚めることはなかった。" ,
+        "bg_change": "../assets/images/black_image.png"},
+        { "text": "ゲームオーバー"}
+      ]
+    }
+  ]
+}

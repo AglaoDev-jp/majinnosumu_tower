@@ -1,0 +1,58 @@
+{
+  "story": [
+    {
+      "page": 4,
+      "save_id": "Heros Statue",
+      "save_description": "その場を離れたくなった",
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor6.webp",
+        "music": "../assets/sound_effects/風が吹く1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "不気味な気配を感じ取ったあなたは、すぐにその場を離れたくなった。" },
+        { "text": "階段を降りるために一歩踏み出すと、背後から冷たい風が吹き付けた。" },
+        { "text": "まるで何かがあなたを逃がさないようにしているかのようだ。" },
+        { "text": "焦りと恐怖で胸が高鳴るが、あなたはそれを振り払い、何とか階段までたどり着いた。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "Heros Statue",
+      "save_description": "階段が崩れ落ち",
+      "flags": [
+        {
+          "bg_change": "../assets/images/black_image.png",
+          "music": "../assets/sound_effects/地響き.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "しかし、階段を降り始めると、突然足元がぐらつき、石の階段が崩れ落ち始めた。" },
+        { "text": "勢いをつけて崩れる階段に引きずられるようにして転落してしまう。" },
+        { "text": "暗闇の中で果てしなく続く落下。恐怖に凍りついたあなたは、何度も石に体を打ち付け、" },
+        { "text": "最後には全身が激痛に包まれ、意識が遠のいていく。"}
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "Heros Statue",
+      "save_description": "逃げる者に未来はない…",
+      "flags": [
+        {
+          "bg_change": "../assets/images/solitary_cell.webp",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "目を覚ますと、そこは冷たく湿ったあの地下の牢獄だった。" ,
+        "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+        { "text": "視界の隅に、あなたを見下ろす不気味な影が映る。" },
+        { "text": "その影は、低い声でささやく。" },
+        { "text": "「逃げる者に未来はない…お前はここで永遠に囚われるのだ。」" },
+        { "text": "あなたの運命は完全に閉ざされた。" },
+        { "text": "ゲームオーバー" ,"bg_change": "../assets/images/skeleton_bad.webp"}
+      ]
+    }
+  ]
+}

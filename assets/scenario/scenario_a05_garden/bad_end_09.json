@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_09",
+            "save_description": "ゲームオーバー: 毒蛇に噛まれる",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/black_image.png"}
+            ],
+            "segments": [
+                {"text": "草むらの中に隠れていた蛇が飛び出してきた！",
+                 "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+                {"text": "あなたは、あなたはショックで気絶してしまった。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

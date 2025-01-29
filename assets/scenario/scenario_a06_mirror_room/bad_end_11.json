@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_11",
+            "save_description": "ゲームオーバー: 鏡に吸い込まれる",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/false_paradise.webp"}
+            ],
+            "segments": [
+                {"text": "鏡に触れると、鏡に吸い込まれ、帰れなくなった。",
+                "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+                {"text": "あなたは、偽りの楽園で永遠に過ごすことになるだろう。", 
+                "bg_change": "../assets/images/false_paradise.webp"},
+                {"text": "ゲームオーバー。", "bg_change": "../assets/images/false_paradise.webp"}
+            ]
+        }
+    ]
+} 

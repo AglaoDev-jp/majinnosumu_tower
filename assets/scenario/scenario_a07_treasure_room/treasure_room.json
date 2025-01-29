@@ -1,0 +1,112 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "knight_encounter",
+      "save_description": "騎士との出会い",
+      "flags": [
+        {
+          "bg_change": "../assets/images/hero's face.webp"
+        }
+      ],
+      "segments": [
+        {
+          "text": "鏡に手を伸ばしたその瞬間、",
+          "sound_effect": "../assets/audio/発見.mp3",
+          "flags": [
+              {"stop_music": true}
+          ]
+        },
+        { "text": "映り込んでいた騎士の姿が、まるで命を宿したかのように動き出した。" ,
+        "music": "../assets/audio/透明な亡霊.mp3"},
+        {
+          "text": "彼は深い瞳であなたを見つめ、静かに語りかける。"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "knight_speaks",
+      "save_description": "騎士の言葉",
+      "flags": [
+        {
+          "music": "../assets/audio/透明な亡霊.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "「この剣を持って行け。魔人を倒すには、この勇者の剣が必要だ。」" },
+        { "text": "騎士の声には、かつての戦いの傷跡が滲み出ているようだった。彼は言葉を続ける。" },
+        { "text": "「私には、もう戦う力は残っていない。この剣を託せる力のある者に…」" },
+        { "text": "騎士は最後の力を振り絞る」" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "mirror_breaks",
+      "save_description": "鏡が割れる",
+      "flags": [
+        {
+          "bg_change": "../assets/images/The hero appears to be inside the mirror.webp",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "騎士は鏡を一撃で打ち砕いた。" ,
+      "sound_effect": "../assets/sound_effects/ガラスが割れる1.mp3"},
+        {
+          "text": "鏡は粉々に砕け散り、割れた鏡の裏から次のフロアへの階段が現れた。",
+          "bg_change": "../assets/images/broadsword.webp"
+        },
+        { "text": "あなたは騎士から託された剣を手に取り、次のフロアへと向かう。" ,
+          "bg_change": "../assets/images/broadsword.webp"
+      }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "treasure_room_entry",
+      "save_description": "宝物庫に入る",
+      "flags": [
+        {
+          "bg_change": "../assets/images/treasure_room.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "次のフロアは、宝物庫のようだ。" },
+        { "text": "部屋の中には金銀財宝が散らばり、まるで昔話に出てくるような財宝の山が広がっている。" },
+        { "text": "部屋の中央には大きな台座があり、そこには古代の工芸品が展示されている。" },
+        { "text": "目立つ宝箱が部屋の中央に置かれており、煌びやかな装飾が施されている。" },
+        { "text": "その隣には一見目立たない隅の小箱があり、他の財宝に埋もれるように置かれている" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "treasure_choice",
+      "save_description": "宝物庫の選択",
+      "flags": [
+        { "music": "../assets/audio/奇妙な話.mp3" },
+        { "bg_change": "../assets/images/treasure_room.webp" }
+      ],
+      "segments": [
+        {
+          "text": "古宝物庫を注意深く見渡し、罠を避けるのだ。：",
+          "choices": [
+            {
+              "text": "１．目立つ宝箱を開ける。豪華な装飾が施されているが、罠かもしれない。",
+              "choice_file": "../assets/scenario/scenario_a07_treasure_room/bad_end_13.json"
+            },
+            {
+              "text": "２．隅の小箱を調べる。目立たないが、何かが隠されているかもしれない。",
+              "choice_file": "../assets/scenario/scenario_a08_devil's room/devil's room.json"
+            },
+            {
+              "text": "３．中央の台座を探る。工芸品が展示されているが、罠が仕掛けられている可能性がある。",
+              "choice_file": "../assets/scenario/scenario_a07_treasure_room/bad_end_14.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

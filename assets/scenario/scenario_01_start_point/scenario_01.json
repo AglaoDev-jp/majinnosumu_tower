@@ -1,0 +1,62 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "start_point",
+      "save_description": "ゲーム開始時",
+      "flags": [
+        {"bg_change": "../assets/images/black_image.png",
+         "music": "../assets/audio/strange_lullaby.mp3"}
+
+      ],
+      "segments": [
+        {"text": "あなたは、意識を取り戻した。"},
+        
+        {"text": "あなたは目隠しをされ、堅い椅子にロープでしっかりと縛られている。"},
+        {"text": "あなたの村は魔人に襲われ、どうやらここに幽閉されていたようだ。"},
+        {"text": "ロープは手首と足首に巻かれているが、手首のロープが少し緩んでいることに気づいた。"},
+        {"text": "あなたは慎重に手首のロープを動かし、何度か試みた後、手首が自由になった。"},
+        {"text": "自由になったあなたは、まず目隠しを外した。目の前には薄暗い地下室が広がっていた。"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "cell_exploration",
+      "save_description": "独房探索",
+      "flags": [
+        {"bg_change": "../assets/images/solitary_cell.webp"}
+      ],
+      "segments": [
+        {"text": "独房のようだ。"},
+        {"text": "壁には古びたレンガが積み重なり、湿気が漂っている。"},
+        {"text": "あなたは周囲を見回し、脱出の手がかりを探し始めた。"},
+        {"text": "あなたは重い鉄の扉を見つけた。", 
+        "bg_change": "../assets/images/cell_door.webp"},
+        {"text": "扉には鍵がかかっているが、鍵穴は古びており、簡単に壊せそうだった。",
+         "bg_change": "../assets/images/cell_door.webp"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "escape_plan",
+      "save_description": "脱出計画",
+      "flags": [
+        {"music": "../assets/audio/奇妙な話.mp3"},
+        {"bg_change": "../assets/images/cell_door.webp"}
+      ],
+      "segments": [
+        {
+          "text": "さて、どうやって脱出しようか？：",
+          
+          "choices": [
+            {"text": "１．鍵を引っ張る。こんな古びた鍵ならすぐに取れてしまうだろう。", "choice_file": "../assets/scenario/scenario_01_start_point/bad_end_01.json"},
+            {"text": "２．穴に異物を突っ込む。鍵穴に何かを突っ込めば、簡単に壊せるだろう", "choice_file": "../assets/scenario/scenario_01_start_point/bad_end_02.json",
+            "voice": "../assets/voice/voice_01/scenario_01_start_point (14).mp3"},
+            {"text": "３．鍵を蹴る。簡単に壊せそうだ、蹴って鍵ごと壊してしまおう。", "choice_file": "../assets/scenario/scenario_02_guard's room/guard's room.json",
+            "voice": "../assets/voice/voice_01/scenario_01_start_point (15).mp3"}
+          ]
+        }
+      ]
+    }
+  ]
+}

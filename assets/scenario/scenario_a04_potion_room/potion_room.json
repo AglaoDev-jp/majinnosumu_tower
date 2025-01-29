@@ -1,0 +1,53 @@
+{
+  "story": [
+    {
+      "page": 2,
+      "save_id": "potion_room_entry",
+      "save_description": "調薬室に入る",
+      "flags": [
+        {
+          "bg_change": "../assets/images/potion_room.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "次のフロアに入った途端、異様な香りが鼻をつく。" },
+        { "text": "棚には色とりどりの瓶が並び、それぞれに奇妙な液体が入っている。" },
+        { "text": "調薬をしていた部屋なのだろうか。" },
+        { "text": "この場所で調合した薬が、今もそのまま保管されているのだろう。" },
+        { "text": "部屋の一角には調合台があり、その上にはまだ使われていない薬草や器具が散乱している。" },
+        { "text": "際には古びた本棚が立ち並び、古代の書物が所狭しと詰め込まれている。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "potion_room_investigation",
+      "save_description": "調薬室の調査",
+      "flags": [
+        { "bg_change": "../assets/images/potion_room.webp" }
+      ],
+      "segments": [
+        { "text": "部屋の奥に目をやると、次のフロアへと続く重厚な扉が見える。" },
+        { "text": "しかし、その扉には頑丈な錠前がかけられており、このままでは先に進むことができない。" },
+        {
+          "text": "鍵がこの部屋のどこかに隠されているのだろうか。：",
+          "music": "../assets/audio/奇妙な話.mp3",
+          "choices": [
+            {
+              "text": "１．ラベルのない瓶を飲んでみる。その中身が何かはわからず、危険を伴うかもしれない。",
+              "choice_file": "../assets/scenario/scenario_a04_potion_room/bad_end_07.json"
+            },
+            {
+              "text": "２．調合台の裏を調べる。研究者たちが何か隠していた可能性がある。",
+              "choice_file": "../assets/scenario/scenario_a05_garden/garden.json"
+            },
+            {
+              "text": "３．古びた本棚を動かしてみる。本棚の裏に手がかりがあるかもしれない。",
+              "choice_file": "../assets/scenario/scenario_a04_potion_room/bad_end_08.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

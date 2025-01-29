@@ -1,0 +1,39 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "devil's room",
+      "save_description": "牢屋を打ち破ろう",
+      "flags": [
+        {"bg_change": "../assets/images/broadsword.webp", 
+        "music": "../assets/sound_effects/オーラ1.mp3"}
+      ],
+      "segments": [
+        { "text": "牢屋を打ち破ろうと、あなたは剣を抜こうとする。" },
+        { "text": "剣はまるで石のように動かない。" },
+        { "text": "アリアーナ王女が、悲しげに口を開く。" },
+        { "text": "「やはり…あなたは正統な後継者ではないのですね…" },
+        { "text": "　この剣は、真の勇者でなければ抜くことができないのです…」"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "devil's room",
+      "save_description": "考え直す１",
+      "flags": [
+        {"music": "../assets/audio/strange_lullaby.mp3"},
+        {"bg_change": "../assets/images/A prison like a giant birdcage.webp"}
+      ],
+      "segments": [
+        {"text": "このままでは助けられない。"},
+        {
+          "text": "あなたは再び考え直すことになる。:","music": "../assets/audio/strange_lullaby.mp3",
+          "choices": [
+            {"text": "１．助けない。", "choice_file": "../assets/scenario/scenario_a08_devil's room/devil's room_bad2.json"},
+            {"text": "２．周囲を調べる。", "choice_file": "../assets/scenario/scenario_a09_Confronting the devil/Confronting the devil.json"}
+          ]
+        }
+      ]
+    }
+  ]
+}

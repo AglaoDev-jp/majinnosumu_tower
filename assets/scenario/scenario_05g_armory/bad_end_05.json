@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_05",
+            "save_description": "ゲームオーバー: 甲冑に見つかり捕まる",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "../assets/images/capturing_armored_bone.webp"}
+            ],
+            "segments": [
+                {"text": "甲冑に見つかり、逃げる暇もなく腕を掴まれた。",
+                "sound_effect": "../assets/audio/Scary replay sound.mp3"},
+                {"text": "あなたは、また囚われの身となるだろう。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "../assets/images/skeleton_bad.webp"}
+            ]
+        }
+    ]
+}

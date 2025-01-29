@@ -1,0 +1,128 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "hidden library",
+      "save_description": "きらびやかな本",
+      "flags": [
+        {
+          "bg_change": "../assets/images/hidden library book deep.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは、慎重に書庫の中を探索することに決めた。" },
+        { "text": "棚と棚の間を歩き回り、古びた本の表紙に目を走らせる。" },
+        { "text": "ふと、一つの棚の奥深くに他と異なる、きらびやかな装丁の本があることに気付いた。" },
+        { "text": "その本は他の古書とは明らかに違う存在感を放っている。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "hidden library",
+      "save_description": "魔人を封じる術",
+      "flags": [
+        {
+          "bg_change": "../assets/images/hidden library book.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは慎重にその本を引き出し、表紙に刻まれた文字を読み取ろうとした。" },
+        { "text": "そこには、「古代の魔法書から学んだ魔人の秘密」と古代の文字で記されていた。" },
+        { "text": "心臓が高鳴るのを感じながら、そっとその本を開く。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hidden library",
+      "save_description": "この本は、必要だ",
+      "flags": [
+        {
+          "bg_change": "../assets/images/hidden library book.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "本の中には、魔人を封じるための魔法と、その詠唱の詳細が書かれているようだ。" },
+        { "text": "この本は、必要だ、持っていくことにしよう。" ,
+        "sound_effect": "../assets/audio/発見.mp3",
+        "flags": [
+            {"stop_music": true}
+        ]}
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "dark corridor ",
+      "save_description": "長い回廊",
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは塔の深部に足を踏み入れた。" },
+        { "text": "そこには、完全な暗闇に包まれた長い回廊が待ち受けていた。" },
+        { "text": "目を凝らしても何も見えず、頼りになるのは壁を手探りする自分の手だけだった。" },
+        { "text": "冷たい石壁の感触が指先に伝わり、湿気を含んだ空気が不快にまとわりつく。" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "dark corridor ",
+      "save_description": "一歩一歩、慎重に",
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor8.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "一歩一歩、慎重に前へ進む。" },
+        { "text": "足音は回廊に吸い込まれるように消え去り、その静寂はかえって恐怖を煽った。" },
+        { "text": "突然、背後からかすかな音が聞こえる。" },
+        { "text": "何かがあなたの後をつけているのだろうか？"},
+        { "text": "それとも、ただの気のせいなのか。立ち止まると、その音もまた止まる。" },
+        { "text": "しかし、振り返っても、暗闇の中には何も見えない。" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "dark corridor ",
+      "save_description": "回廊は二手に",
+      "flags": [
+        {
+          "bg_change": "../assets/images/dark_corridor2.webp",
+          "music": "../assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "さらに進むと、回廊は二手に分かれている。" },
+        { "text": "その時、壁に触れていた手がぬるりとした感触を捉える。" },
+        { "text": "まるで何かの液体が壁を伝っているようだ。" },
+        { "text": "冷たさと不快感があなたを襲う。" },
+        { "text": "背後にはまだ何かが潜んでいるかもしれない。" },
+        {
+          "text": "緊張が高まる中、あなたは進むべき道を選ばなければならない。：",
+          "music": "../assets/audio/奇妙な話.mp3",
+          "choices": [
+            {
+              "text": "１．左の回廊に進む",
+              "choice_file": "../assets/scenario/scenario_b06_dark corridor scenario/dark corridor scenario_bad_1.json"
+            },
+            {
+              "text": "２．右の回廊に進む",
+              "choice_file": "../assets/scenario/scenario_b07_Heros Statue Scenario/Heros Statue Scenario.json"
+            },
+            {
+              "text": "３．気配を感じ、立ち止まる。",
+              "choice_file": "../assets/scenario/scenario_b06_dark corridor scenario/dark corridor scenario_bad_2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
