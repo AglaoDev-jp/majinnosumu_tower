@@ -1,0 +1,122 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "古代の言葉",
+      "flags": [
+        { "bg_change": "demon.png",
+          "music": "strange_lullaby.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "あなたは門の両脇を注意深く観察する。" },
+        { "text": "すると、そこには戦士たちの亡霊に教わった、古い石碑らしきものを発見した。" },
+        { "text": "確かにその石碑には、古代の言葉が刻まれていた。" },
+        { "text": "戦士たちの教えに従い、静かにその言葉を唱え始める。" },
+        { "text": "「Zarath ul'nevar, kashan ma'lor veshar...」" ,
+        "music": "オーラ1.mp3.bin" },
+        { "text": "心を鎮め、言葉を口にするたび、門の魔力が少しずつ弱まっていくのを感じる。" }
+
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "その言葉を止めろ！",
+      "flags": [
+        { "bg_change": "demon.png",
+          "music": "strange_lullaby.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "「貴様、何をする！その言葉を止めろ！」" },
+        { "text": "魔人の偶像が叫び、怒りに震える。" },
+        { "text": "しかし、あなたは動じることなく、呪文を続ける。" },
+        { "text": "「Arthan veranash, ilen'thar volos...」",
+        "music": "オーラ1.mp3.bin" },
+        { "text": "魔人の偶像はふたたび叫び声を上げるが、すでに遅い。" },
+        { "text": "魔力が弱まったのを見計らい、あなたは剣を高く掲げる。" , 
+        "bg_change": "g_blade.png"},
+        { "text": "「それは勇者の剣！ま、待て！止めろ！」" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "偶像の断末魔",
+      "flags": [
+        { "bg_change": "demon.png",
+        "music": "オーラ1.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "その刃から光が溢れ出し、門に向けて放たれる。" },
+        { "text": "剣の力が門を包み込むと、門全体が震え始めた。" ,
+        "music": "地響き.mp3.bin"},
+        { "text": "「ぐああああっ！」" ,
+        "sound_effect": "雷魔法4.mp3.bin",
+        "flags": [
+            {"stop_music": true}
+        ]},
+        { "text": "魔人の偶像は断末魔の叫び声を上げ、次第に消え去っていった。",
+        "bg_change": "black_image.png",
+        "music": "風が吹く1.mp3.bin"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "広々とした平野",
+      "flags": [
+        { "bg_change": "End grassland.png",
+          "music": "風が吹く1.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "魔人の守護する門が開くと、あなたの前には広々とした平野が広がっていた。" },
+        { "text": "門を通り抜けた瞬間、冷たい風が吹き抜け、魔力の残り香が消えていく。" },
+        { "text": "門を出たあなたの前に、一人の戦士の霊がふわりと現れた。" },
+        { "text": "穏やかな表情であなたに語りかける。"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "我らの使命",
+      "flags": [
+        { "bg_change": "The spirit of a warrior floats around.png",
+          "music": "風が吹く1.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "「貴殿が魔人の門の魔力を破り、塔から勇者の剣を見つけ出してくれた。" },
+        { "text": "　我々の魂もようやくその役割を終えることができそうだ。" },
+        { "text": "　感謝する。」" },
+        { "text": "戦士の霊は少しの間、遠くを見つめるように視線を向けた後、再びあなたに目を向ける。"},
+        { "text": "「だが、魔人はまだどこかに潜んでいるはずだ。" },
+        { "text": "　この地に完全な平和が戻るには、まだ時間がかかるだろう。" },
+        { "text": "　しかし今、まずはこの剣をフィオリス王国へ届けることが先決だ。" },
+        { "text": "　我らの使命を果たすために、どうか無事に剣を届けてくれ。」" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "フィオリス王国への道",
+      "flags": [
+        { "bg_change": "End grassland.png",
+          "music": "プレリュード第2番「名前を入力してください」.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "戦士の霊は、あなたに深い感謝の意を示し、静かに消えていった。" },
+        { "text": "あなたは剣をしっかりと握りしめ、フィオリス王国への道を進む決意を固める。" },
+        { "text": "剣を王国へ届けるという新たな使命を胸に、あなたの冒険の旅が再び始まる。" },
+        { "text": "広がる平野の先にある、未知の道へと足を踏み出した。"},
+        { "text": "これからどのような試練が待ち受けているかはわからない。"},
+        { "text": "しかし、あなたならば、きっとその使命を果たすことができるだろう。"},
+        {"flags": [{"end_type": "scroll_credits",
+                    "ending_name": "ending1"}]}
+      ]
+    }
+    
+    
+    
+    
+  ]
+}

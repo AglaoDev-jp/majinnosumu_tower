@@ -1,0 +1,192 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "勇者ではないと答えた",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "戦士たちの霊に囲まれた中、あなたは、勇者ではないと答えた。" },
+        { "text": "彼らの期待に応えることができないという真実を告げた瞬間、" },
+        { "text": "戦士たちの表情が一変し、沈黙がその場を包む。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "誤った期待",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「…勇者ではない…だと…？」" },
+        { "text": "「我らは誤った期待を抱いてしまったのか…」" },
+        { "text": "失望の色が戦士たちの顔に広がり、彼らの目に宿っていた希望の光が揺らぎ始める。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "剣の導き",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "しかし、一人の戦士があなたをじっと見つめ直し、やがて口を開く。" },
+        { "text": "「それでも、この者が剣を手にしているということは、この剣が導いたのだろう。" },
+        { "text": "　やはり、我らの勇者は既にこの世を去っているのだ。" },
+        { "text": "　今は、この剣を持つ者に与えられた使命のため、力を尽くすべきだろう。」"}
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "この剣をフィオリス王国に届けて欲しい",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "若い戦士の霊が、悲しみと共に願いを伝える。" },
+        { "text": "「お願いだ。この剣をフィオリス王国に届けて欲しい。" },
+        { "text": "　これは王国にとって、かけがえのない遺産なのだ。" },
+        { "text": "　それに、王国には、もう既に次の勇者が現れているのかもしれない！」" },
+        { "text": "あなたはその言葉を胸に受け止め、決意を固める。" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "魔人の門の魔力",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "戦士たちは再び静かな敬意を持ってあなたを見つめ、次に進むべき道を示す。" },
+        { "text": "「この魔人の棲む塔から出るには、この先にある、魔人の門を通らなくてはならない。" },
+        { "text": "　その門は魔人の強大な魔力によって守られており、正面からの攻撃では無意味だ。」" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "門の攻略方法",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "戦士の霊の一人が、門の攻略方法を伝授するため、さらに話を続ける。" },
+        { "text": "「門を開くには、三つの試練を克服する必要がある。" },
+        { "text": "　門の両脇にある石碑に隠された呪文を唱え、門の魔力を弱めることが第一だ。" },
+        { "text": "　次に、魔力が弱まった状態で、剣を門に向けて掲げよ。" },
+        { "text": "　さすれば剣の力で門を開くことができるはずだ。」" }
+      ]
+    },
+    {
+      "page": 7,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "心を静め、覚悟を決める",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "もう一人の戦士の霊が注意を促す。" },
+        { "text": "「だが、呪文を唱える際に心が揺らげば、門の魔力が逆に増幅する危険がある。" },
+        { "text": "　心を静め、覚悟を決めることが肝心だ。」" }
+      ]
+    },
+    {
+      "page": 8,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "戦士たちの導き",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "最後に、年老いた戦士の霊が、あなたに向かって忠告する。" },
+        { "text": "「門を開いた後も、油断は禁物だ。" },
+        { "text": "　その先には魔人の生き残りが待ち構えているやもしれぬ。" },
+        { "text": "　しかし、剣に宿る力を信じれば、必ず道は開かれる。" },
+        { "text": "　我らの希望を託す…どうか、無事に王国に剣を届けてくれ。」" },
+        { "text": "あなたは戦士たちの言葉を胸に刻み、剣をしっかりと握りしめる。"},
+        { "text": "戦士たちの導きに従い、魔人の門を目指す。" }
+      ]
+    },
+    {
+      "page": 9,
+      "save_id": "Tomb of the Warriors",
+      "save_description": "魔人の守る門",
+      "flags": [
+        {
+          "bg_change": "forest_entrance2.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは薄暗い森を抜け、ついに魔人の守る門へとたどり着く。" },
+        { "text": "その門は巨大で、堅牢な石造りできており、" },
+        { "text": "まるで大地に根を下ろしたかのように、威圧的にそびえ立っている。" },
+        { "text": "門に一歩近づいた瞬間、冷たい風が吹き抜け、周囲の空気が一変する。" },
+        { "text": "突然、門の前に薄暗い霧が立ち込め、徐々に魔人の姿が浮かび上がった。"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "potion_room_investigation",
+      "save_description": "魔人の偶像",
+      "flags": [
+        { "bg_change": "demon.png",
+          "music": "strange_lullaby.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "それは、魔法によって生み出された偶像であり、" },
+        { "text": "まるで生きているかのようにあなたを睨みつける。" },
+        { "text": "魔人の偶像が口を開き、低く不気味な声で囁く。" },
+        { "text": "「愚かな者よ、この門を越えることは許されぬ。」"},
+        {
+          "text": "その言葉に圧倒されながらも、あなたは戦士たちから教わった攻略方法を思い出す。：",
+          "music": "奇妙な話.mp3.bin",
+          "choices": [
+            {
+              "text": "１．門の両脇にある石碑に隠された呪文を唱える",
+              "choice_file": "A_07_Majin_Gate_end.json"
+            },
+            {
+              "text": "２．剣を門に向けて掲げ、剣の力を解放する",
+              "choice_file": "A_07_Majin_Gate_loop_1.json"
+            },
+            {
+              "text": "３．門を無視して他の道を探す",
+              "choice_file": "A_07_Majin_Gate_loop_2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

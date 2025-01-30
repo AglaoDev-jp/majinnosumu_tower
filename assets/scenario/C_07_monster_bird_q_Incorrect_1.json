@@ -1,0 +1,43 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bird_question_about_book",
+      "save_description": "怪鳥の魔法書についての質問",
+      "flags": [
+        {
+          "bg_change": "monstrous bird1.png",
+          "music": "奇妙な話.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "「はて、そのような本だったかなあ？」"
+        },
+        {
+          "text": "怪鳥は、少し首をかしげた。"
+        },
+        {
+          "text": "怪鳥は、鋭い目であなたを見つめながら問いかけた。"
+        },
+        {
+          "text": "「お前、その魔法書を開いたか？何が書かれてあった？」",
+          "choices": [
+            {
+              "text": "１．魔人を封じるための魔法と、その詠唱の詳細が書かれていたと答える。",
+              "choice_file": "C_07_monster_bird_q_Incorrect_2.json"
+            },
+            {
+              "text": "２．魔人を石化する魔法と、その詠唱の詳細が書かれていたと答える。",
+              "choice_file": "C_07_monster_bird_q_Incorrect_2.json"
+            },
+            {
+              "text": "３．魔人を眠らせる魔法と、その詠唱の詳細が書かれていたと答える。",
+              "choice_file": "C_07_monster_bird_q_Incorrect_2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

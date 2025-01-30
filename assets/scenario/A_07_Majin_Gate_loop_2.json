@@ -1,0 +1,34 @@
+{
+  "story": [
+    
+    {
+      "page": 1,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "無謀の極みだ。",
+      "flags": [
+        { "bg_change": "demon.png",
+          "music": "strange_lullaby.mp3.bin" }
+      ],
+      "segments": [
+        { "text": "戦士たちの教えを無視し、別の道を探すことを選ぶ。" },
+        { "text": "しかし、すでに魔人の門の強力な魔力が周囲を封じ込め、どこにも逃げ場がない！" },
+        { "text": "「愚か者よ…この門を超えようとするなど、無謀の極みだ。」" },
+        { "text": "魔人は冷たい笑みを浮かべ、その目には嘲りの光が宿っている。" },
+        {
+          "text": "あなたは門の前に立ち尽くし、再び戦士たちの言葉を思い出すことになる。：",
+          "music": "奇妙な話.mp3.bin",
+          "choices": [
+            {
+              "text": "１．門の両脇にある石碑に隠された呪文を唱える",
+              "choice_file": "A_07_Majin_Gate_end.json"
+            },
+            {
+              "text": "２．剣を門に向けて掲げ、剣の力を解放する",
+              "choice_file": "A_07_Majin_Gate_loop_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

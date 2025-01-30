@@ -1,0 +1,54 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_04",
+            "save_description": "鍵束を試していく。",
+            "flags": [
+                {"music": "strange_lullaby.mp3.bin"},
+                {"bg_change": "guard's room.png"}
+            ],
+            "segments": [
+                {"text": "あなたは机の引き出しを開け、錆びついた鍵束を取り出す。",
+                "bg_change": "key4.png"},
+                {"text": "何本も絡まった鍵を一つずつ試していくが、どれもドアの鍵には合わない。",
+                "bg_change": "key4.png"},
+                {"text": "焦りが募る中、最後の鍵を試そうとしたその時、突然、机の下から低い唸り声が響いた。"}
+            ]
+        },
+        {
+            "page": 1,
+            "save_id": "bad_end_04",
+            "save_description": "机の下から怪物が！",
+            "flags": [
+                {"bg_change": "guard's room Under a wooden table.png"},
+                {"stop_music": true}
+            ],
+            "segments": [
+                {"text": "次の瞬間、机の下から巨大な怪物が飛び出してきた。",
+                "sound_effect": "ライオンの鳴き声1.mp3.bin"},
+                {"text": "暗闇の中で見え隠れする鋭い牙と爪が、あなたに襲いかかる。",
+                "sound_effect": "怖い系リプレイ音.mp3.bin"},
+                {"text": "恐怖に凍りついたあなたは身動きが取れず、怪物の凶暴な一撃を受けて倒れ込む。"}
+
+            ]
+        },
+        {
+            "page": 1,
+            "save_id": "bad_end_04",
+            "save_description": "ゲームオーバー: 机の下の怪物に襲われる。",
+            "flags": [
+
+                {"bg_change": "black_image.png"}
+            ],
+            "segments": [
+                {"text": "薄れゆく意識の中で、あなたは足元に倒れている看守の姿を見つける。"},
+                {"text": "どうやら看守もこの怪物に襲われたようだ。"},
+                {"text": "あなたの視界は次第に暗くなり、静寂が訪れる。"},
+                {"text": "どうやら脱出の望みは、ここで断たれるようだ。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "skeleton_bad.png"}
+            ]
+        }
+    ]
+}

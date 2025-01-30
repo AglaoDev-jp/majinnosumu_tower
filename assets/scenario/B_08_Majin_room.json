@@ -1,0 +1,136 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "ladder_discovery",
+      "save_description": "はしごの発見",
+      "flags": [
+        {
+          "bg_change": "hashigo.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "隅の小箱を調べると、中に折りたたまれたはしごを見つけた。" ,
+          "sound_effect": "発見.mp3.bin"},
+        { "text": "伸ばすことで上側の通路に届くようだ。次のフロアに進もう。" }
+      ]
+    }, 
+    {
+      "page": 1,
+      "save_id": "devil's room",
+      "save_description": "devil's room",
+      "flags": [
+        {
+          "bg_change": "devil's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは、無骨な石の柱と石畳のフロアが広がる部屋に足を踏み入れた。" },
+        { "text": "どこか不穏な空気を感じるが、特に怪しげなものは見当たらない。" },
+        { "text": "部屋の奥には、赤い絨毯が敷かれ、古びた玉座が見える。" },
+        { "text": "その光景に不思議な感覚を覚えながらも、あなたはさらに奥へと進む。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "devil's room",
+      "save_description": "巨大な鳥かご",
+      "flags": [
+        {
+          "bg_change": "A prison like a giant birdcage.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "すると、巨大な鳥かごのような牢屋が目に入る。" },
+        { "text": "鉄の柵が厳重に張り巡らされ、その中に一人の女性が囚われている。" },
+        { "text": "彼女は美しくも疲れた顔をしており、薄暗い部屋の中でその姿は儚げに見える。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "devil's room",
+      "save_description": "フィオリス王国の王女アリアーナ",
+      "flags": [
+        {
+          "bg_change": "a princess up.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたがその姿に気づいた瞬間、彼女もあなたに気づいた。"},
+        { "text": "そして、かすかな声で話しかけてくる。" },
+        { "text": "「わたしは、フィオリス王国の王女アリアーナ…ここに閉じ込められているの…" },
+        { "text": "　お願い、助けて欲しいのです…」" },
+        { "text": "彼女の視線が、ふとあなたが持つ剣に移る。"},
+        { "text": "驚きの表情を浮かべるが、その表情はすぐに曇る。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "devil's room",
+      "save_description": "勇者ではない…", 
+      "flags": [
+        {
+          "bg_change": "broadsword.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「その剣…それはフィオリス王国に伝わる伝説の勇者の剣！" },
+        { "text": "　でも、あなたは…違うんですね。勇者ではない…" },
+        { "text": "　それでも、その剣を持っているということは、何かの運命かもしれません…」" },
+        { "text": "彼女は一瞬考え込んだ後、再び口を開く。" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "devil's room",
+      "save_description": "あなたをフィオリス王国へ",
+      "flags": [
+        {
+          "bg_change": "devil's room.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「ここは、恐ろしい魔人が住む部屋なのです…" },
+        { "text": "　幸い、今は魔人がいないようですが、いつ戻るかわかりません…" },
+        { "text": "　お願いです、助けてください…" },
+        { "text": "　あなたがその剣を持つならば、あなたをフィオリス王国へお連れせねばなりません。」" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "devil's room",
+      "save_description": "王女の頼み",
+      "flags": [
+        {
+          "bg_change": "devil's room.png",
+          "music": "奇妙な話.mp3.bin"
+        }
+      ],
+      "segments": [
+        {
+          "text": "あなたは彼女の頼みに対して、どのように応えるだろうか？：",
+          "choices": [
+            {
+              "text": "１．助ける。",
+              "choice_file": "B_08_Majin_room_loop_1.json"
+            },
+            {
+              "text": "２．助けない。",
+              "choice_file": "B_08_Majin_room_loop_2.json"
+            },
+            {
+              "text": "３．周囲を調べる。",
+              "choice_file": "B_09_Confronting the devil.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

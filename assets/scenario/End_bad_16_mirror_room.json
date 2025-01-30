@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_16",
+            "save_description": "ゲームオーバー: 雷の魔法で倒される",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "lightning_magic.png"}
+            ],
+            "segments": [
+                {"text": "鏡に触れると、激しい雷の魔法で倒されてしまった！", 
+                "sound_effect": "雷魔法4.mp3.bin"},
+                {"text": "消し炭になったあなたを、だれも見分けることはできないだろう。",
+                "sound_effect": "怖い系リプレイ音.mp3.bin"},
+                {"text": "ゲームオーバー。"}
+            ]
+        }
+    ]
+}

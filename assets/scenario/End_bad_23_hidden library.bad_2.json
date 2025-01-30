@@ -1,0 +1,25 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_21",
+      "save_description": "ゲームオーバー：魔法陣の鋭い光",
+      "flags": [
+        {
+          "bg_change": "hidden library.png" ,
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "異様な気配を感じ取り、ふと書庫の壁に小さな亀裂があるのを見つけた。" },
+        { "text": "亀裂の隙間から光が漏れているのを見て、手を伸ばしてみた。" },
+        { "text": "亀裂に手を差し込むと、突然、壁に刻まれた魔法陣が鋭い光を放ち始めた！",
+        "sound_effect": "重力魔法2.mp3.bin"},
+        { "text": "罠の魔法で全身に強烈な光を浴びたあなたは、そのまま意識を失ってしまった。",
+        "sound_effect": "怖い系リプレイ音.mp3.bin"},
+        { "text": "ゲームオーバー",
+        "bg_change": "skeleton_bad.png"}
+      ]
+    }
+  ]
+}

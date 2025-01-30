@@ -1,0 +1,94 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "dark corridor",
+      "save_description": "右の回廊へ",
+      "flags": [
+        {
+          "bg_change": "dark_corridor3.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは右の回廊を選び、慎重に一歩ずつ進んでいく" },
+        { "text": "周囲はまだ暗闇に包まれているが、左の回廊に比べて少し広く、息苦しさは感じない。" },
+        { "text": "それでも足元には注意を払いながら進んでいく。" },
+        { "text": "しばらくすると、地面が軽く揺れ、左の方向から何かが崩れるような音が聞こえた。"  ,
+        "music": "地響き.mp3.bin"},
+        { "text": "あなたは立ち止まり、慎重に足を運ぶ。" ,
+          "bg_change": "black_image.png",
+          "flags": [
+              {"stop_music": true}
+          ]}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Heros Statue",
+      "save_description": "巨大な石像",
+      "flags": [
+        {
+          "bg_change": "hero stone statue.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "階段を重い足取りで登り切ると、そこは異様な静けさに包まれた広間だった。" },
+        { "text": "部屋の中央には、威厳と恐怖を兼ね備えた巨大な石像が立っている。" },
+        { "text": "その石像は、今にも動き出しそうなほど精巧に作られており、戦士の姿をしている。" },
+        { "text": "部屋に漂う冷たい空気は、過去にここで何か恐ろしいことが起こったことを示唆している。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Heros Statue",
+      "save_description": "この地を守り抜いた英雄",
+      "flags": [
+        {
+          "bg_change": "hero stone statue.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたが石像に近づくと、どこからともなく声が響く。" },
+        { "text": "「この勇者は、かつてこの地を守り抜いた英雄だ。" },
+        { "text": "　しかし、彼は裏切りに遭い、永遠に石となって封じられた。" },
+        { "text": "　今、この地は新たな英雄を待ち続けている…」" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "Heros Statue",
+      "save_description": "新たな英雄？",
+      "flags": [
+        {
+          "bg_change": "hero stone statue.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "声はそこで途切れ、再び静寂が戻った。" },
+        { "text": "だが、部屋の雰囲気は明らかに変わり、何かが起ころうとしているようだ。" },
+        {
+          "text": "さて、どうしようか？。：",
+          "music": "奇妙な話.mp3.bin",
+          "choices": [
+            {
+              "text": "１．石像に向かって「自分が新たな英雄だ」と名乗り出る。",
+              "choice_file": "End_bad_26_Heros Statue bad_1.json"
+            },
+            {
+              "text": "２．石像の周囲を詳しく調べてみる。",
+              "choice_file": "C_07_monster_bird.json"
+            },
+            {
+              "text": "３．すぐにその場を離れて逃げ出す。",
+              "choice_file": "End_bad_27_Heros Statue bad_2.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

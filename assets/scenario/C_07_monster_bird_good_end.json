@@ -1,0 +1,166 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bird_decision",
+      "save_description": "怪鳥の決断",
+      "flags": [
+        {
+          "bg_change": "monstrous bird1.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "怪鳥はしばらく考えるように目を閉じた後、少しニヒルな笑みを浮かべた。" 
+        ,"sound_effect": "発見.mp3.bin"},
+        { "text": "「お前、地下牢から脱出してここまで来れたんなら、無力な人間じゃないだろう。" },
+        { "text": "　よし、ワシがその魔法ってやつを使ってやろう。" },
+        { "text": "　なに、理屈が分かればたやすい魔法だ。" },
+        { "text": "　その隙にお前が勇者の剣とやらで魔人の弱点をつけ" },
+        { "text": "　悪い話ではないだろう？」" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "demon_return",
+      "save_description": "魔人の帰還",
+      "flags": [
+        {
+          "bg_change": "black_image.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "二人の作戦が整ったところで、階下から重々しい足音が響いてきた。",
+        "sound_effect": "怪獣の足音.mp3.bin" },
+        { "text": "魔人が戻ってきたのだ。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "demon_confrontation",
+      "save_description": "魔人との対峙",
+      "flags": [
+        {
+          "bg_change": "demon_anger.png",
+        "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「何をしている？ここは私の居場所だぞ！」" ,
+        "sound_effect": "ゴブリンの鳴き声1.mp3.bin"},
+        { "text": "怪鳥は冷静に魔人を見返し、軽く肩をすくめた。" },
+        { "text": "「おいおい、落ち着けよ。ワシはただの傍観者さ。" },
+        { "text": "　でもな、お前もそろそろこの塔から出て行く頃合いだろう。」" },
+        { "text": "魔人は苛立ちを隠しきれない。" },
+        { "text": "「ふざけるな！ここは私の力を集めるための場所だ！お前に邪魔される筋合いはない！」"},
+        { "text": "怪鳥は冷ややかな笑みを浮かべ、低く答えた。" },
+        { "text": "「お前の力がいかに強大だろうと、この塔には限界がある。" },
+        { "text": "　お前がここで何をしているのかは知っているが、そろそろ潮時だ。」" },
+        { "text": "魔人はさらに怒りを募らせ、目を見開いた。" },
+        { "text": "「黙れ！私の力はまだ完全ではない。お前ごときに干渉される筋合いはない！」" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "demon_defeat",
+      "save_description": "怪鳥との共闘",
+      "flags": [
+        {
+          "bg_change": "monstrous bird2.png"
+        }
+      ],
+      "segments": [
+        { "text": "怪鳥は肩をすくめてから主人公の方をちらりと見た。" ,
+        "music": "ENEMY_ENCOUNTER.mp3.bin"},
+        { "text": "「まあ、こんな調子だ。やるなら今だぞ。」" },
+        { "text": "その瞬間、怪鳥が低く呪文を唱え始めた。" ,
+        "sound_effect": "オーラ1.mp3.bin"},
+        { "text": "その呪文の声が響き、魔人の動きが一瞬止まる。" ,
+        "bg_change": "Surprised_Demon.png" },
+        { "text": "「なに！この呪文は我々を封じ込めた魔法…！」" ,
+        "bg_change": "Surprised_Demon.png" },
+        { "text": "あなたはすぐに剣を取り出し、魔人の胸にある結晶を狙って突き刺した！" ,
+        "sound_effect": "弓矢が刺さる.mp3.bin" ,
+        "bg_change": "Surprised_Demon.png"},
+        { "text": "剣は魔人の結晶に深く突き刺さり、光が一瞬弾けた。"  ,
+        "sound_effect": "ガラスが割れる1.mp3.bin",
+        "flags": [
+            {"stop_music": true}
+        ],
+        "bg_change": "demon_pained.png"},
+        { "text": "「ぐぅ…！貴様、この私にこんな傷を…！」" ,
+        "bg_change": "demon_pained.png"},
+        { "text": "魔人は苦しそうに呻いた。" ,
+        "bg_change": "demon_pained.png"},
+        { "text": "魔人はその場にひざまずきながらも、低い声で呪いの言葉を吐いた。",
+        "bg_change": "demon_pained.png"  ,
+        "sound_effect": "ゴブリンの鳴き声2.mp3.bin"},
+        { "text": "「覚えておけ…私がこの程度で終わると思うな…いつか必ず復活してみせる…！」",
+        "bg_change": "demon_pained.png",
+        "flags": [
+            {"stop_music": true}
+        ] }
+        
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "demon_return",
+      "save_description": "魔人の帰還",
+      "flags": [
+        {
+          "bg_change": "white_image.png",
+          
+              "stop_music": true 
+        }
+      ],
+      "segments": [
+        { "text": "その言葉を最後に、魔人は煙のように消え去った。", "color": "black" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "bird_reaction",
+      "save_description": "厄介者がいなくなって",
+      "flags": [
+        {
+          "bg_change": "monstrous bird3.png",
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "塔に漂っていた不吉な気配がすっかり消え、静寂が戻った。" },
+        { "text": "怪鳥は軽く翼を広げ、あなたを見つめて微笑んだ。" },
+        { "text": "「やれやれ、厄介者がいなくなって助かった。" },
+        { "text": "　これでワシもやっと静かに過ごせるってもんだ。" },
+        { "text": "　致命傷ではないようだが、あの調子なら300年は復活できまい。」" },
+        { "text": "怪鳥はしばらくあなたを見つめた後、ふと考え込むような表情を浮かべた。" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "final_decision",
+      "save_description": "最後まで付き合ってやるさ。",
+      "flags": [
+        {
+          "bg_change": "End monstrous bird.png",
+          "music": "プレリュード第2番「名前を入力してください」.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「ところで、お前の住む村はどこだ？まさか、このまま歩いて戻るつもりじゃないだろうな。" ,
+      "bg_change": "monstrous bird1.png"},
+        { "text": "　まあ、ワシがここまで助けてやったんだ、最後まで付き合ってやるさ。」" ,
+      "bg_change": "monstrous bird1.png"},
+        { "text": "怪鳥はそう言うと、あなたをその広い背中に乗せた。" ,
+      "bg_change": "black_image.png"},
+        { "text": "あなたへの礼のつもりだろう。村まで送ってくれるようだ。" ,
+      "bg_change": "black_image.png"},
+        { "text": "翼を広げた怪鳥は、塔の頂上から一気に飛び立ち、空高く舞い上がった。" },
+        {"flags": [{"end_type": "scroll_credits",
+                    "ending_name": "ending3"}]}
+      ]
+    }
+  ]
+}

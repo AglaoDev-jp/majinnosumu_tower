@@ -1,0 +1,20 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_08",
+            "save_description": "ゲームオーバー: 甲冑に倒される",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "defeated_armored_bone.png"}
+            ],
+            "segments": [
+                {"text": "甲冑の攻撃を防げず、倒されてしまった。",
+                "sound_effect": "怖い系リプレイ音.mp3.bin"},
+                {"text": "あなたは、そのまま起き上がることはなかった。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "skeleton_bad.png"}
+            ]
+        }
+    ]
+}

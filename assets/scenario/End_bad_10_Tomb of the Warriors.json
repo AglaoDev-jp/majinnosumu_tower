@@ -1,0 +1,81 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "bad_end_10",
+      "save_description": "勇者でもないのに",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png", 
+          "music": "風が吹く1.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは、勇者でもないのに戦士たちの霊に囲まれた状況に嫌気がさした。" },
+        { "text": "握りしめた剣をしっかりと構える。" },
+        { "text": "そして、思い切って戦士たちの霊に向かって剣を振り下ろした！" , 
+        "sound_effect": "剣の素振り1.mp3.bin"},
+        { "text": "剣は空を切り裂き、霊の体に触れる。" , 
+        "sound_effect": "剣の素振り1.mp3.bin"},
+        { "text": "しかし、手ごたえはまったくない。", 
+        "sound_effect": "剣の素振り1.mp3.bin"},
+        { "text": "むしろ、剣が霊の体を貫通した瞬間、霊たちの表情が恐ろしい怒りに変わった。" , 
+        "sound_effect": "剣の素振り1.mp3.bin"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "bad_end_10",
+      "save_description": "何という愚行…！",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts cold soul.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "「何という愚行…！」", 
+        "sound_effect": "重力魔法2.mp3.bin" },
+        { "text": "「この剣の持ち主でありながら、我らを攻撃するとは…許されざる罪だ…！」" },
+        { "text": "「貴様は我らの信頼を裏切った。この剣に宿る力を汚し、我らを冒涜した…」。"},
+        { "text": "戦士たちの霊は、激しく怒り、あなたの周りに増え続ける。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "bad_end_10",
+      "save_description": "相応の罰",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts cold soul.png"
+        }
+      ],
+      "segments": [
+        { "text": "「貴様には相応の罰を与えよう！」" },
+        { "text": "「…貴様にこの剣を持つ資格はない！」" },
+        { "text": "戦士たちの霊が一斉に怒号を放ち、その声が耳をつんざく。" },
+        { "text": "目の前が真っ暗になり、あなたの意識は急速に奪われていく。",
+        "bg_change": "black_image.png"}
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "bad_end_10",
+      "save_description": "ゲームオーバー：永遠の闇に囚われる",
+      "flags": [
+        {
+          "bg_change": "black_image.png"
+        }
+      ],
+      "segments": [
+        { "text": "最後に感じたのは、無限の闇に引きずり込まれる感覚だった。" ,
+          "sound_effect": "怖い系リプレイ音.mp3.bin"},
+        { "text": "あなたは戦士たちの墓で、永遠の闇に囚われることとなる。" },
+        { "text": "こうして、あなたの冒険は無残な結末を迎え、" },
+        { "text": "戦士たちの怒りによって永遠に罰せられることになった。" },
+        { "text": "ゲームオーバー" ,
+        "bg_change": "skeleton_bad.png"}
+      ]
+    }
+  ]
+}

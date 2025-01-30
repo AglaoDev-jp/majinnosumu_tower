@@ -1,0 +1,160 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "armor_stop",
+      "save_description": "甲冑の停止",
+      "flags": [
+        {
+          "bg_change": "stopping_the_armored_bone.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "どうやらこの剣がスイッチになっていたようだ。",
+          "sound_effect": "発見.mp3.bin" },
+        { "text": "止まった甲冑の横を抜け、あなたは慎重に進む。" },
+        { "text": "何かと物騒だ。この剣は拝借していこう。", 
+        "bg_change": "g_blade.png"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "armor_room_investigation",
+      "save_description": "甲冑室の調査",
+      "flags": [
+        {
+          "bg_change": "armor_room_investigation.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは部屋を調べ、甲冑の停止が何を意味するのか考える。" },
+        { "text": "壁には塔の古い見取り図が掛かっていた。" },
+        { "text": "この武器庫の端には小さく「出口」と書かれた場所が見える。" },
+        { "text": "もしや、ここから外に出られるのではないか。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "exit_discovery",
+      "save_description": "出口の発見",
+      "flags": [
+        {
+          "bg_change": "exit_discovery.png",
+          "music": "strange_lullaby.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "部屋の隅に隠された小さな扉を見つけ、あなたはそれが塔の外へ続く道だと悟る。" },
+        { "text": "不安を感じながらも、あなたは扉を開けて外に出ることを決意する。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "enter_forest",
+      "save_description": "茂みを抜ける",
+      "flags": [
+        {
+          "bg_change": "forest_entrance.png", 
+          "music": "風に揺れる草木1.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "塔の中にいたせいか、外の空気が冷たかった。" },
+        { "text": "あなたは、すぐに茂みの中へと足を踏み入れる。" },
+        { "text": "茂みをかき分けながら進むと、徐々に視界が開けてきた。" },
+        { "text": "遠くからは風に乗って木々のざわめきが聞こえる。" },
+        { "text": "その先に広がる異様な光景に、あなたは足を止める。" }
+      ]
+    },
+    {
+      "page": 5,
+      "save_id": "potion_room_entry",
+      "save_description": "無数の剣",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png", 
+          "music": "風に揺れる草木1.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "無数の剣が大地に突き立てられ、錆びついた刃が月明かりに鈍く光る。" },
+        { "text": "その場所は、まるで戦士たちの魂を弔う墓碑のようだ。" },
+        { "text": "冷たい風が吹き抜け、木々がざわめき始める。" }
+      ]
+    },
+    {
+      "page": 6,
+      "save_id": "warrior_sword_glow",
+      "save_description": "戦士の剣の輝き",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "不意に、あなたが握る剣が淡く光を放つ。",
+         "bg_change": "g_blade.png"},
+        { "text": "呼応するかのように剣の周囲から霧のような白い光が立ち上り、次々と形をなしていく。", 
+        "bg_change": "g_blade.png"},
+        { "text": "やがて、無数の戦士の霊があなたの前に浮かび上がる。" }
+      ]
+    },
+    {
+      "page": 7,
+      "save_id": "warrior_spirits_encounter",
+      "save_description": "戦士の霊との遭遇",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors warrior_ghosts.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「これは…勇者の剣ではないか！」" },
+        { "text": "戦士の霊たちは目を見開き、あなたを見つめる。" },
+        { "text": "彼らはあなたの持つ剣を見て驚愕し、取り囲むようにして近づいてくる。" },
+        { "text": "「まさか、あなたが勇者だというのか…？我らが待ち望んだ、あの勇者がここに…！」"},
+        { "text": "霊たちの眼差しには期待と畏敬の念が混じっている。" },
+        { "text": "しかし、その中には深い悲しみと無念の思いも感じられる。" }
+      ]
+    },
+    {
+      "page": 8,
+      "save_id": "warriors_question",
+      "save_description": "勇者の問い",
+      "flags": [
+        {
+          "bg_change": "Tomb of the Warriors sword_grave.png",
+          "music": "透明な亡霊.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "「我らはかつて、魔人たちと戦い、この地で散った者たちだ。" },
+        { "text": "　多くの仲間が勇敢に戦い、そして力尽きた…。" },
+        { "text": "　それでも我らは、勇者が現れ、この剣を手に魔人を倒す日を信じて待っていたのだ。」" },
+        { "text": "しかし、あなたは心の中で戸惑いを覚える。" },
+        { "text": "彼らが勘違いしているのだろうか。"  },
+        {
+          "text": "それとも、この剣が何か特別な意味を持つのだろうか。：",
+          "choices": [
+            {
+              "text": "１．勇者だと答える",
+              "choice_file": "End_bad_09_Tomb of the Warriors.json"
+            },
+            {
+              "text": "２．勇者ではないと答える",
+              "choice_file": "A_07_Majin_Gate.json"
+            },
+            {
+              "text": "３．剣で戦士の霊に切りかかる",
+              "choice_file": "End_bad_10_Tomb of the Warriors.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

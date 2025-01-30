@@ -1,0 +1,80 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "hidden_stairs_discovered",
+      "save_description": "隠された階段を発見",
+      "flags": [
+        {
+          "bg_change": "garden_hidden_stairs.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "古い噴水を調べると、水が引いて隠された階段が現れた。" ,
+          "sound_effect": "発見.mp3.bin"},
+        { "text": "次のフロアに進もう。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "mirror_room_entry",
+      "save_description": "鏡の部屋に入る",
+      "flags": [
+        {
+          "bg_change": "mirror_room.png",
+          "music": "静かな夜に.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "部屋全体が神秘的な光に包まれていることに気づく。" },
+        { "text": "部屋の中には巨大な鏡がいくつも設置され、それぞれが幻想的な風景を映し出している。" },
+        { "text": "部屋の中央には三つの特別大きな鏡が並んでおり、それぞれが異なる人物を映し出している。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "mirror_three_figures",
+      "save_description": "三つの鏡の人物",
+      "flags": [
+        {
+          "bg_change": "mirror_three_figures.png",
+          "music": "静かな夜に.mp3.bin"
+        }
+      ],
+      "segments": [
+        { "text": "左の鏡には優雅なドレスをまとった貴婦人、" },
+        { "text": "中央の鏡には壮麗な甲冑を身に着けた騎士、" },
+        { "text": "右の鏡には怪しいローブを纏った魔法使いが映っている。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "mirror_choice",
+      "save_description": "鏡の選択",
+      "flags": [
+        { "music": "奇妙な話.mp3.bin" },
+        { "bg_change": "mirror_three_figures.png" }
+      ],
+      "segments": [
+        {
+          "text": "この3つの鏡になにか仕掛けがあるのだろうか。：",
+          "choices": [
+            {
+              "text": "１．左の鏡に触れる。美しい貴婦人だが、あなたをだます罠かもしれない。",
+              "choice_file": "End_bad_15_mirror_room.json"
+            },
+            {
+              "text": "２．中央の鏡に触れる。勇敢そうな騎士だが、あなたを敵とみなすかもしれない。",
+              "choice_file": "B_07_treasure_room.json"
+            },
+            {
+              "text": "３．右の鏡に触れる。いかにも怪しい魔法使いだが、逆に特別な何かがあるかもしれない。",
+              "choice_file": "End_bad_16_mirror_room.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
