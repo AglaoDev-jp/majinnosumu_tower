@@ -175,7 +175,7 @@ A visual novel game project
 ## ソースコードについて
 
 ソースコードからゲームを遊ぶためには、以下の手順に従ってください。  
-### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[説明書](./dev_tools/tools_guide.txt)
+### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[説明書](./dev_tools/tools_guide.md)
 
 1. **Pythonのインストール**  
    `.py`ファイルの実行には、Pythonがインストールされている環境が必要です。
