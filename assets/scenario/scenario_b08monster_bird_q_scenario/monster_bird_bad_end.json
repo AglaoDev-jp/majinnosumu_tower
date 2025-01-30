@@ -1,0 +1,96 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "flags": [
+        {
+        "bg_change": "assets/images/black_image.png",
+        "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "二人の話が終わったところで、階下から重々しい足音が響いてきた。" ,
+        "sound_effect": "assets/sound_effects/怪獣の足音.mp3"},
+        { "text": "魔人が戻ってきたのだ。" }
+      ]
+    },
+    {
+      "page": 2,
+      "flags": [
+        {
+          "bg_change": "assets/images/demon_anger.png",
+          "music": "assets/sound_effects/魔法使いが空を飛ぶ.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "「何をしている？ここは私の居場所だぞ！」" ,
+        "sound_effect": "assets/sound_effects/ゴブリンの鳴き声1.mp3"},
+        { "text": "怪鳥は冷静に魔人を見返し、軽く肩をすくめた。" },
+        { "text": "「おいおい、落ち着けよ。ワシはただの傍観者さ。" },
+        { "text": "　でもな、お前もそろそろこの塔から出て行く頃合いだろう。」" },
+        { "text": "魔人は苛立ちを隠しきれない。" },
+        { "text": "「ふざけるな！ここは私の力を集めるための場所だ！お前に邪魔される筋合いはない！」"},
+        { "text": "怪鳥は冷ややかな笑みを浮かべ、低く答えた。" },
+        { "text": "「お前の力がいかに強大だろうと、この塔には限界がある。" },
+        { "text": "　お前がここで何をしているのかは知っているが、そろそろ潮時だ。」" },
+        { "text": "魔人はさらに怒りを募らせ、目を見開いた。" },
+        { "text": "「黙れ！私の力はまだ完全ではない。お前ごときに干渉される筋合いはない！」" }
+      ]
+    },
+    {
+      "page": 3,
+      "flags": [
+        {
+          "bg_change": "assets/images/monstrous bird2.png",
+          "music": "assets/sound_effects/魔法使いが空を飛ぶ.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "怪鳥は肩をすくめてから主人公の方をちらりと見た。" },
+        { "text": "「まあ、こんな調子だ。やるなら今だぞ。」" },
+        { "text": "あなたは、魔人の胸に剣を突き刺した！" ,
+        "bg_change": "assets/images/black_image.png",
+        "sound_effect": "assets/sound_effects/剣の素振り1.mp3"},
+        { "text": "しかし剣は魔人の体をすり抜けるように通り抜けた。",
+        "bg_change": "assets/images/black_image.png" },
+        { "text": "「愚か者め、そんな攻撃が私に効くとでも思ったか？」" ,
+        "bg_change": "assets/images/demon_laugh.png",
+        "sound_effect": "assets/sound_effects/ゴブリンの鳴き声1.mp3",
+        "flags": [
+            {"stop_music": true}
+        ]},
+        { "text": "魔人は冷笑し、暗黒のエネルギーがその周りに渦巻き始めた。" ,
+        "bg_change": "assets/images/demon_laugh.png",
+        "sound_effect": "assets/sound_effects/重力魔法2.mp3",
+        "flags": [
+            {"stop_music": true}
+        ]},
+        { "text": "突然、床の下から無数の鎖が飛び出し、あなたの手足に絡みついた。" ,
+        "bg_change": "assets/images/chains_trapping_protagonist.png",
+        "music": "assets/sound_effects/締め付ける2.mp3"},
+        { "text": "あなたは必死に抵抗するが、鎖はどんどんきつく締まり、身動きが取れなくなった。" ,
+        "bg_change": "assets/images/chains_trapping_protagonist.png",
+        "music": "assets/sound_effects/締め付ける2.mp3"}
+      ]
+    },
+    {
+      "page": 4,
+      "flags": [
+        {
+          "bg_change": "assets/images/demon_laugh.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "魔人は高らかに笑い声を上げた。" ,
+          "sound_effect": "assets/audio/怖い系リプレイ音.mp3"},
+        { "text": "周囲の闇がさらに濃くなり、視界は真っ暗になった。" },
+        { "text": "「何もできない無力な存在として、この場所で永遠に過ごすがいい…」" ,
+        "bg_change": "assets/images/black_image.png"},
+        { "text": "魔人の冷たい声が響き渡り、あなたの意識は闇の中へと沈んでいった。" ,
+        "bg_change": "assets/images/black_image.png"},
+        { "text": "ゲームオーバー。" }
+      ]
+    }
+  ]
+}

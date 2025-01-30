@@ -1,0 +1,53 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_01",
+            "save_description": "チェストの前に立ち",
+            "flags": [
+                {"music": "assets/audio/strange_lullaby.mp3"},
+                {"bg_change": "assets/images/guard's room.png"}
+            ],
+            "segments": [
+                {"text": "あなたは大きなチェストの前に立ち、その錠前に手をかける。"},
+                {"text": "錆びた鍵穴に合う鍵を見つけ、ゆっくりと回して蓋を開ける。"}
+            ]
+        },
+        {
+            "page": 1,
+            "save_id": "bad_end_01",
+            "save_description": "怪物",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "assets/images/guard's room The chest is open, and a monstrous.png"}
+            ],
+            "segments": [
+                {"text": "すると突然、中から怪物が飛び出してきた！",
+                "sound_effect": "assets/sound_effects/ライオンの鳴き声1.mp3"},
+                {"text": "驚きのあまり後ずさる間もなく、怪物はあなたに襲いかかる。",
+                "sound_effect": "assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "鋭い爪があなたの腕を掴み、力強い一撃があなたを地面に叩きつけた。"},
+                {"text": "あなたは抵抗する間もなく、怪物の牙が迫り、視界が暗転する。",
+                "bg_change": "assets/images/black_image.png"}
+            ]
+        },
+        {
+            "page": 2,
+            "save_id": "bad_end_01",
+            "save_description": "ゲームオーバー: チェストの魔物の犠牲に",
+            "flags": [
+                {"bg_change": "assets/images/black_image.png"}
+            ],
+            "segments": [
+               
+                {"text": "倒れたあなたの目の端には、チェストの横に倒れ込んでいる看守が見える。"},
+                {"text": "どうやら看守も、この怪物の犠牲となったようだ。"},
+                {"text": "あなたの視界は次第に暗くなり、静寂が訪れる。"},
+                {"text": "どうやら脱出の望みは、ここで断たれるようだ。"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "assets/images/skeleton_bad.png"}
+
+            ]
+        }
+    ]
+}

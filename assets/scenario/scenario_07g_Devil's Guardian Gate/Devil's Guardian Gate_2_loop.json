@@ -1,0 +1,35 @@
+{
+  "story": [
+    
+    {
+      "page": 1,
+      "save_id": "Devil's Guardian Gate_end",
+      "save_description": "愚かな者よ",
+      "flags": [
+        { "bg_change": "assets/images/demon.png",
+          "music": "assets/audio/strange_lullaby.mp3" }
+      ],
+      "segments": [
+        { "text": "しかし、剣の力は門の魔力に弾かれ、何も起こらない。" },
+        { "text": "「愚かな者よ、力の使い方を知らぬようだな？」" },
+        { "text": "魔人の偶像が嘲笑する。" },
+        { "text": "門の魔力が逆流し、あなたの体を痺れさせる。" },
+        { "text": "その瞬間、戦士たちが警告した呪文の重要性を思い出す。" },
+        {
+          "text": "あなたは門の前に立ち尽くし、再び戦士たちの言葉を思い出すことになる。：",
+          "music": "assets/audio/奇妙な話.mp3",
+          "choices": [
+            {
+              "text": "１．門の両脇にある石碑に隠された呪文を唱える",
+              "choice_file": "assets/scenario/scenario_07g_Devil's Guardian Gate/Devil's Guardian Gate_end.json"
+            },
+            {
+              "text": "２．門を無視して他の道を探す",
+              "choice_file": "assets/scenario/scenario_07g_Devil's Guardian Gate/Devil's Guardian Gate_3_loop.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
