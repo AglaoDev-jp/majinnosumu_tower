@@ -5,8 +5,8 @@
 
 A visual novel game project  
 コード作成、シナリオ作成、テキスト作成、画像生成にChatGPTを使用しています。  
-このブランチでは、ゲームの**ソースコード**と**実行ファイル**を記載しています。  
-ゲームプレイのみのREADMEは[こちら](./README_Game.md)  
+このブランチでは、ゲームの**ソースコード**を記載しています。  
+ゲームプレイ(実行ファイル)は[こちら](./README_Game.md)  
 
 ---
 
@@ -146,13 +146,13 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
 ---
 
 #### **cryptography**  
-- Copyright (c) 2013-2024, The cryptography developers. All rights reserved.
+- Copyright (c) 2013-2024, The cryptography developers. All rights reserved.  
 このプロジェクトでは、音源データの暗号化・復号化に`cryptography`ライブラリを使用しています。  
 このライブラリは以下のライセンスに基づき配布されています：  
 - Apache License 2.0  
 - 一部コンポーネントはBSDライセンス（3-Clause License）  
 
-また、`cryptography`ライブラリのバックエンドとしてOpenSSLが使用されており、バージョンによりライセンスが異なります：
+また、`cryptography`ライブラリのバックエンドとしてOpenSSLが使用されており、バージョンによりライセンスが異なります：  
 
 - **OpenSSL 3.0以降**：Apache License 2.0  
 - **OpenSSL 3.0未満**（1.1.1やそれ以前）：OpenSSL License および SSLeay License のデュアルライセンス  
@@ -162,7 +162,7 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
 このバージョンは**Apache License 2.0**に基づいて配布されています。
 - Copyright (c) 1998-2024 The OpenSSL Project Authors  
 - Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson  
-- All rights reserved.
+- All rights reserved.  
 ※ All rights reserved.と書かれているものは、著作権者がすべての権利を保有していることを示す表現なんだそうです。  
   
 詳しくは以下をご確認ください：  
@@ -177,9 +177,9 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
 
 ---
 #### **Cython** 
-このプロジェクトの実行ファイルは、Cythonを使用して難読化を行っています。
-Cython © 2007-2023 The Cython Project Developers  
-Licensed under the Apache License 2.0.  
+このプロジェクトの実行ファイルは、Cythonを使用して難読化を行っています。  
+- Cython © 2007-2023 The Cython Project Developers  
+- Licensed under the Apache License 2.0.  
 - [Apache License 2.0](http://www.apache.org/licenses/LICENSE.APACHE)  
 
 #### **PyInstaller**  
@@ -279,6 +279,8 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 
 （敬称略）  
 
+---
+
 これらの素晴らしい音源を提供してくださった制作者および貢献者の皆様に、心より感謝申し上げます。  
 
 ---
@@ -319,8 +321,8 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 ## ソースコードについて
 
 ソースコードから起動するには、以下の手順に従ってください。
-### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[tools_guide](./dev_tools/tools_guide.txt)
-### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.txt")  
+### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[tools_guide](./dev_tools/tools_guide.md)
+### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.md")  
 ### ※ Cython化を行わなくても起動できます。  
 ### ※ 実行ファイル化の場合にはCython化を推奨します。[Cython化について](./Cython化について.md)  
 
@@ -373,12 +375,12 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
    5.暗号化した音源ファイルを`asset`フォルダ内の`encrypted_audio`フォルダに移動してください。  
    6.暗号化されたキー`encrypted_secret.key`を`src`フォルダ内に移動してください。
    7.`master.key`の内容を、`key_obfuscator.py`を使用して難読化し、それをソースコード内`main.py`にハードコーディングしてください。  
-   詳しくは[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.txt")を参照してください。  
+   詳しくは[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.md")を参照してください。  
 
-   ※ 音源のリストは、フォルダ内にもあります
-   ※ ハードコーディングの場所はソースコード内のコメントアウトで記述しています。
-   ※ `sound_effects`フォルダは、今回使用していません。ソースコードのパス生成の記述を変更することで使用することも可能です。
-   ※ `voice`を使用する場合も同様にバイナリデータ化、暗号化を行ってください。`voice`音源は`voice`フォルダに入れてください。
+   ※ 音源のリストは、フォルダ内にもあります  
+   ※ ハードコーディングの場所はソースコード内のコメントアウトで記述しています。  
+   ※ `sound_effects`フォルダは、今回使用していません。ソースコードのパス生成の記述を変更することで使用することも可能です。  
+   ※ `voice`を使用する場合も同様にバイナリデータ化、暗号化を行ってください。`voice`音源は`voice`フォルダに入れてください。  
 
 ### `pygame.mixer.Sound`使用時の注意点:
 - `pygame.mixer.Sound`は短い音声データ（主に効果音）を扱うことを想定した機能です。そのため、音楽データ全体をメモリ上に展開する形となり、大きな音声ファイルを使用するとメモリ使用量が増加する可能性があります。
@@ -522,16 +524,13 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 - **`--icon=icon.ico`**  
   実行ファイルのアイコンを設定します。アイコンファイルは必ず `.ico` フォーマットで用意する必要があります。このパスは、アイコンファイルの保存場所に応じて適宜変更してください。  
   例:  
-  - プロジェクトフォルダ直下にアイコンファイルがある場合：  
-   - `--icon=icon.ico`
+  ```shell
+  # プロジェクトフォルダ直下にアイコンファイルがある場合：  
+   `--icon=icon.ico`
 
-  - アイコンファイルが `assets/images/` ディレクトリ内にある場合：  
-   - `--icon=assets/images/icon.ico`
- 
----  
-  
-
----
+  # アイコンファイルが `assets/images/` ディレクトリ内にある場合：  
+   `--icon=assets/images/icon.ico`
+  ```
 
 ### 実行ファイルの確認
 
@@ -551,8 +550,6 @@ PyInstallerが成功すると、以下のようなディレクトリ構成が作
 実行ファイルは`dist`フォルダ内に出力されます。  
 `dist`フォルダ内に作成された実行ファイル（例: `majinnosumu_tower-ver-5.0.exe`）を使用して、ゲームを実行できます。  
 生成された実行ファイルは、Python環境を必要とせずに動作し、配布にも適した形になっています。distフォルダ内に作成された実行ファイルをそのまま配布するだけで、他のユーザーがゲームをプレイできるようになります。
-
----
 
 ### 注意事項
 
