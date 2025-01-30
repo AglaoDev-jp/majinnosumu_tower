@@ -1,0 +1,58 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "Confronting the devil",
+      "save_description": "お前には用はない２",
+      "flags": [
+        {
+          "bg_change": "assets/images/broadsword.png",
+        "music": "assets/sound_effects/風に揺れる草木1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "「ようやく手に入れたぞ、勇者の剣を！」魔人は歓喜の声を上げ、剣を高く掲げる。" },
+        { "text": "その剣から放たれる力が増幅され、彼の邪悪な力と融合するように塔全体が震え始めた。" },
+        { "text": "魔人は満足げに剣を受け取り、その力を得たことで邪悪な笑みを浮かべた。" },
+        { "text": "「これでお前には用はない。さっさと消え失せろ！」" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "Confronting the devil",
+      "save_description": "体は宙を舞い",
+      "flags": [
+        {
+          "bg_change": "assets/images/demon_anger.png",
+          "music": "assets/sound_effects/風に揺れる草木1.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "魔人はそう言い放ち、片手であなたを払いのけるように振った。",
+      "sound_effect":"assets/sound_effects/小キック.mp3"},
+        { "text": "猛烈な力であなたの体は宙を舞い、そのまま塔の出口へと飛ばされた。" ,
+      "bg_change": "assets/images/black_image.png"},
+        { "text": "あなたは地面にたたきつけられ、意識を失いそうになる。",
+          "sound_effect":"assets/sound_effects/全力で踏み込む.mp3",
+          "bg_change": "assets/images/black_image.png"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "Confronting the devil",
+      "save_description": "アリアーナの悲痛な叫び声",
+      "flags": [
+        {
+          "bg_change": "assets/images/A giant ancient stone gate.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "しかし、塔の中から響く、アリアーナの悲痛な叫び声がそうさせなかった。" ,
+        "sound_effect": "assets/sound_effects/「ギャアアアア！」.mp3"},
+        { "text": "あなたは、恐怖と絶望に駆られて、その場を逃げ出すことしかできなかった。" },
+        { "text": "ゲームオーバー" }
+      ]
+    }
+  ]
+}

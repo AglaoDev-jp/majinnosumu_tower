@@ -1,0 +1,22 @@
+{
+    "story": [
+        {
+            "page": 1,
+            "save_id": "bad_end_14",
+            "save_description": "ゲームオーバー: 台座が崩れ奈落に落ちる",
+            "flags": [
+                {"stop_music": true},
+                {"bg_change": "assets/images/pedestal_collapsing.png"}
+            ],
+            "segments": [
+                {"text": "台座が崩れ、罠が発動してしまった。",
+                "sound_effect": "assets/audio/怖い系リプレイ音.mp3"},
+                {"text": "あなたは、奈落の底へと落ちていく。"},
+                {"text": "気づくと、そこはあの独房だった。",
+                 "bg_change": "assets/images/solitary_cell.png"},
+                {"text": "ゲームオーバー。",
+                "bg_change": "assets/images/skeleton_bad.png"}
+            ]
+        }
+    ]
+}

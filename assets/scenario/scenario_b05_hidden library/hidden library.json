@@ -1,0 +1,78 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "hidden library",
+      "save_description": "隠し書庫",
+      "flags": [
+        {
+          "bg_change": "assets/images/hidden library.png",
+          "music": "assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "あなたは奥深くまで足を進めると、古びた書庫を見つけた。" ,
+        "sound_effect": "assets/audio/発見.mp3",
+        "flags": [
+            {"stop_music": true}
+        ]},
+        { "text": "扉を静かに押し開けると、無数の古書や巻物がぎっしりと詰まった棚が現れる。",
+        "music": "assets/audio/strange_lullaby.mp3"},
+        { "text": "書庫の中は、まるで時間が止まったかのような静寂が支配しており、" },
+        { "text": "古い紙とインクの独特な匂いが漂っている。" },
+        { "text": "かすかな光が、天井の小さな隙間から差し込み、" },
+        { "text": "舞い上がった埃がその光を浴びてきらきらと輝いている。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "hidden library",
+      "save_description": "脱出の手がかり",
+      "flags": [
+        {
+          "bg_change": "assets/images/hidden library.png",
+          "music": "assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "この書庫には、脱出の手がかりとなる重要な情報が隠されているかもしれない。 " },
+        { "text": "だが同時に、この場所には未知の危険が潜んでいるような気配も感じる。" },
+        { "text": "しかし、軽はずみに動くことはできない。" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hidden library",
+      "save_description": "この書庫には、何かが隠されている",
+      "flags": [
+        {
+          "bg_change": "assets/images/hidden library.png",
+          "music": "assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "書棚を見渡していると、突然、背後にひやりとするような異様な気配を感じた。" },
+        { "text": "あなたは直感的に、特定の古書に手を伸ばす。" },
+        { "text": "書物に触れたその瞬間、書庫全体がわずかに揺れ始めた。" },
+        {
+          "text": "この書庫には、何かが隠されているのは確かだ。：",
+          "music": "assets/audio/奇妙な話.mp3",
+          "choices": [
+            {
+              "text": "１．手に取った書物を開く。",
+              "choice_file": "assets/scenario/scenario_b05_hidden library/hidden library.bad_2.json"
+            },
+            {
+              "text": "２．書庫の中をさらに探索する。",
+              "choice_file": "assets/scenario/scenario_b06_dark corridor scenario/dark corridor scenario.json"
+            },
+            {
+              "text": "３．書庫を出て、別の場所を調べる。",
+              "choice_file": "assets/scenario/scenario_b05_hidden library/hidden library.bad_1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

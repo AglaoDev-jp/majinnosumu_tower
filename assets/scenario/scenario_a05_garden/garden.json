@@ -1,0 +1,81 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "potion_door_unlock",
+      "save_description": "調合台裏で鍵を発見",
+      "flags": [
+        {
+          "bg_change": "assets/images/potion_door.png",
+          "stop_music": true
+        }
+      ],
+      "segments": [
+        { "text": "調合台の裏を調べると、隠された鍵を見つけた。" ,
+          "sound_effect": "assets/audio/発見.mp3"},
+        { "text": "この鍵で部屋の扉を開ける、次のフロアに進もう。" }
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "garden_entry",
+      "save_description": "庭園に入る",
+      "flags": [
+        {
+          "bg_change": "assets/images/garden_path.png",
+          "music": "assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "目の前に広がる美しい景色に息を呑む。草木が生い茂り、色とりどりの花が咲き誇っている。" },
+        { "text": "そこには部屋の中とは思えない空間が広がっていた。" },
+        { "text": "室内庭園といったところだろうか" }
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "garden_exploration",
+      "save_description": "庭園の探索",
+      "flags": [
+        {
+          "bg_change": "assets/images/garden.png",
+          "music": "assets/audio/strange_lullaby.mp3"
+        }
+      ],
+      "segments": [
+        { "text": "庭園の奥に進むと、そこかしこに古代の遺物のようなモニュメントが点在している。" },
+        { "text": "石の彫刻や古い噴水、草むらにもなにか隠れているようだ。" },
+        { "text": "しかし長年手が入っていないのか、鬱蒼としている。" }
+      ]
+    },
+    {
+      "page": 4,
+      "save_id": "garden_clue_search",
+      "save_description": "庭園の手がかりを探す",
+      "flags": [
+        { "music": "assets/audio/奇妙な話.mp3" },
+        { "bg_change": "assets/images/garden.png" }
+      ],
+      "segments": [
+        { "text": "出口のようなものは見当たらない。" },
+        {
+          "text": "注意深く、次のフロアへ進むための手がかりを探す：",
+          "choices": [
+            {
+              "text": "１．古い噴水を調べる。噴水の中に何か隠されているかもしれない。",
+              "choice_file": "assets/scenario/scenario_a06_mirror_room/mirror_room.json"
+            },
+            {
+              "text": "２．草むらを探る。草むらの中に扉が隠れている可能性がある。",
+              "choice_file": "assets/scenario/scenario_a05_garden/bad_end_09.json"
+            },
+            {
+              "text": "３．石の彫刻を動かす。彫刻の下に秘密が隠されているかもしれない。",
+              "choice_file": "assets/scenario/scenario_a05_garden/bad_end_10.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

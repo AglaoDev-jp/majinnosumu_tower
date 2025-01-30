@@ -1,0 +1,63 @@
+{
+  "story": [
+    {
+      "page": 1,
+      "save_id": "unlock_door",
+      "save_description": "看守の遺体",
+      "flags": [
+        {"bg_change": "assets/images/black_image.png", 
+        "music": "assets/audio/strange_lullaby.mp3"}
+      ],
+      "segments": [
+        {"text": "あなたは一度立ち止まり、あたりをよく観察することにした。"},
+        {"text": "部屋の隅に目を向けると、泡を吹いて倒れている看守を見つけた。"},
+        {"text": "死んではいないようだが、この場所で一体何があったのだろうか？"},
+        {"text": "看守はその場で何かを守ろうとしていたかのように手を握りしめている。"}
+      ]
+    },
+    {
+      "page": 2,
+      "save_id": "explore_hall",
+      "save_description": "小さな鍵",
+      "flags": [
+        {"bg_change": "assets/images/black_image.png",
+         "music": "assets/audio/strange_lullaby.mp3"}
+      ],
+      "segments": [
+        {"text": "あなたは慎重に近づき、看守のポケットを探ってみる。"},
+        {"text": "小さな鍵が握られていた。",
+         "sound_effect": "assets/audio/発見.mp3",
+         "bg_change": "assets/images/key1.png",
+        "flags": [
+            {"stop_music": true}
+        ]},
+        {"text": "看守が隠していたこの鍵こそが、ドアを開けるためのものに違いない。",
+        "bg_change": "assets/images/key1.png",
+        "music": "assets/audio/strange_lullaby.mp3"},
+        {"text": "あなたは鍵を手に取り、ドアの鍵穴に差し込んで回す。"},
+        {"text": "カチッという音とともに、重いドアがゆっくりと開き始めた。",
+         "sound_effect": "assets/sound_effects/牢屋の扉を閉める.mp3"},
+        {"text": "あなたは、慎重に次の部屋へと進む。"}
+      ]
+    },
+    {
+      "page": 3,
+      "save_id": "hall_investigation",
+      "save_description": "分かれ道",
+      "flags": [
+        {"music": "assets/audio/strange_lullaby.mp3"},
+        {"bg_change": "assets/images/path_branch.png"}
+      ],
+      "segments": [
+        {"text": "ここから先は分かれ道のようだ。"},
+        {
+          "text": "どちらへ進もうか？：","music": "assets/audio/strange_lullaby.mp3",
+          "choices": [
+            {"text": "１．右へ進む。", "choice_file": "assets/scenario/scenario_04b_hall/hall.json"},
+            {"text": "２．左へ進む。", "choice_file": "assets/scenario/scenario_a04_potion_room/potion_room.json"}
+          ]
+        }
+      ]
+    }
+  ]
+}
