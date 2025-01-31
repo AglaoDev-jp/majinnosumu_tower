@@ -1,7 +1,7 @@
 ## ゲーム制作用ツールガイド
 
 ゲーム制作用に制作したツールをこのフォルダにまとめました。それぞれの概要と役割を以下に記載しています。  
-音源のバイナリデータ化および暗号化の方法は[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md)にまとめてあります。  
+音源のバイナリデータ化および暗号化の方法は[audio_tools](./audio_tools/audio_conversion_guide.md)にまとめてあります。  
 
 ### ツール一覧
 
