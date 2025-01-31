@@ -326,7 +326,7 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 
 ソースコードから起動するには、以下の手順に従ってください。
 ### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[tools_guide](./dev_tools/tools_guide.md)
-### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md")  
+### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md)  
 ### ※ Cython化を行わなくても起動できます。  
 ### ※ 実行ファイル化の場合にはCython化を推奨します。[Cython化について](./Cython化について.md)  
 
@@ -379,7 +379,7 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
    5.暗号化した音源ファイルを`asset`フォルダ内の`encrypted_audio`フォルダに移動してください。  
    6.暗号化されたキー`encrypted_secret.key`を`src`フォルダ内に移動してください。  
    7.`master.key`の内容を、`key_obfuscator.py`を使用して難読化し、それをソースコード内`main.py`にハードコーディングしてください。  
-   詳しくは[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md")を参照してください。  
+   詳しくは[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md)を参照してください。  
 
    ※ 音源のリストは、フォルダ内にもあります  
    ※ ハードコーディングの場所はソースコード内のコメントアウトで記述しています。  
