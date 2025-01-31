@@ -112,8 +112,8 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
   - ライブラリは動的リンクとして扱われます。
   - アプリケーションのソースコードを公開する義務はありません。
 - ただし、以下の対応を行う必要があります：  
-  1. ライセンス文（LGPL.txt）を配布パッケージに含める。  
-  2. Pygameを改変した場合、その改変部分のソースコードを公開する。  
+  - ライセンス文（LGPL.txt）を配布パッケージに含める。  
+  - Pygameを改変した場合、その改変部分のソースコードを公開する。  
 
 詳細なライセンス条項については、以下を参照してください：  
 - [Pygame License](https://github.com/pygame/pygame/blob/main/docs/LGPL.txt)  
@@ -173,7 +173,10 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
   - [LICENSE.OPENSSL.txt](./licenses/third_party/LICENSE.OPENSSL.txt)  
 
 **注意**:  
-このソフトウェアは、日本国内での使用を想定しています。国外配布を行う場合、該当国の暗号化技術に関する規制をご確認ください。暗号化技術は輸出規制や各国の法律の対象となる場合があります。特に、他国への配布時は適切な手続きが必要です。  
+このソースコード(ソフトウェア)は、日本国内での使用を想定しています。  
+国外配布を行う場合、該当国の暗号化技術に関する規制をご確認ください。  
+暗号化技術は輸出規制や各国の法律の対象となる場合があります。  
+特に、他国への配布時は適切な手続きが必要です。  
 
 ---
 #### **Cython** 
@@ -235,8 +238,9 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 ---
 
 ## 音源について
-ソースコードフォルダには、音楽や効果音の音源自体は含まれておりません。ゲームで使用する音楽と効果音は、以下の提供元サイトからダウンロードをお願いします。
-ご利用にあたっては、各提供元サイトの規約をよくお読みいただき、適切な利用をお願いします。
+ソースコードフォルダには、音楽や効果音の音源自体は含まれておりません。  
+ゲームで使用する音楽と効果音は、以下の提供元サイトからダウンロードをお願いします。  
+ご利用にあたっては、各提供元サイトの規約をよくお読みいただき、適切な利用をお願いします。  
 
 - **フリーBGM DOVA-SYNDROME**  
 - **効果音ラボ**  
@@ -322,7 +326,7 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
 
 ソースコードから起動するには、以下の手順に従ってください。
 ### ※ 制作に必要なツールを`dev_tools`フォルダにまとめてあります。[tools_guide](./dev_tools/tools_guide.md)
-### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.md")  
+### ※ このソースコードで音源使用するには、音源をバイナリデータ化および暗号化が必要です。[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md")  
 ### ※ Cython化を行わなくても起動できます。  
 ### ※ 実行ファイル化の場合にはCython化を推奨します。[Cython化について](./Cython化について.md)  
 
@@ -368,14 +372,14 @@ Noto Sans JPは、SIL Open Font License (OFL) Version 1.1に基づき、以下�
    ```
 
 3. **音源ファイルの配置**  
-   1.`dev_tools`フォルダ内の`convert_to_binary.py`を使用して音源をバイナリデータに変換してください。
-   2.`generate_key.py`で暗号キーを作成してください。
+   1.`dev_tools`フォルダ内の`convert_to_binary.py`を使用して音源をバイナリデータに変換してください。  
+   2.`generate_key.py`で暗号キーを作成してください。  
    3.作成した暗号キーを使用し`encrypt_audio.py`で音源を暗号化してください。  
-   4.`generate_master_key.py`を使用して、暗号化用の鍵を暗号化するマスターキー`master.key`と暗号化されたキー`encrypted_secret.key`を作成してください。  
+   4.`generate_master_key.py`を使用して、暗号化用の鍵を暗号化するマスターキー`master.key`と暗号化されたキー`encrypted_secret.key`を作成してください。    
    5.暗号化した音源ファイルを`asset`フォルダ内の`encrypted_audio`フォルダに移動してください。  
-   6.暗号化されたキー`encrypted_secret.key`を`src`フォルダ内に移動してください。
+   6.暗号化されたキー`encrypted_secret.key`を`src`フォルダ内に移動してください。  
    7.`master.key`の内容を、`key_obfuscator.py`を使用して難読化し、それをソースコード内`main.py`にハードコーディングしてください。  
-   詳しくは[audio_tools]("./dev_tools/audio_tools/audio_conversion_guide.md")を参照してください。  
+   詳しくは[audio_tools](./dev_tools/audio_tools/audio_conversion_guide.md")を参照してください。  
 
    ※ 音源のリストは、フォルダ内にもあります  
    ※ ハードコーディングの場所はソースコード内のコメントアウトで記述しています。  
@@ -548,8 +552,10 @@ PyInstallerが成功すると、以下のようなディレクトリ構成が作
 └── dummy_script.py
 ```
 実行ファイルは`dist`フォルダ内に出力されます。  
-`dist`フォルダ内に作成された実行ファイル（例: `majinnosumu_tower-ver-5.0.exe`）を使用して、ゲームを実行できます。  
-生成された実行ファイルは、Python環境を必要とせずに動作し、配布にも適した形になっています。distフォルダ内に作成された実行ファイルをそのまま配布するだけで、他のユーザーがゲームをプレイできるようになります。
+`dist`フォルダ内に作成された実行ファイル（例: `majinnosumu_tower-ver-5.0.exe`）を使用してゲームを実行できます。  
+生成された実行ファイルは、Python環境を必要とせずに動作します。  
+ひとつのシステムファイルにまとめられていますので、配布にも適した形になっています。  
+distフォルダ内に作成された実行ファイルをそのまま配布するだけで、他のユーザーがゲームをプレイできるようになります。  
 
 ### 注意事項
 
@@ -559,7 +565,7 @@ PyInstallerが成功すると、以下のようなディレクトリ構成が作
   コードやデータなどにセキュリティが重要なプロジェクトで使用する場合は、追加の保護手段を検討してください。  
 
 - **OSに応じた調整**  
-　MacやLinux環境で作成する場合、`--add-data` オプションのセパレータやアイコン指定の書式が異なるようです。  
+  MacやLinux環境で作成する場合、`--add-data` オプションのセパレータやアイコン指定の書式が異なるようです。  
   詳細は[PyInstaller公式ドキュメント](https://pyinstaller.org)をご確認ください。  
   実行ファイル化において発生した問題は、PyInstallerのログを確認してください。  
 
