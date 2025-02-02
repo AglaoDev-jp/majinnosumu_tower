@@ -3,7 +3,7 @@
 
 # 魔人の棲む塔_visual-novel-game ver-5.0  
 A visual novel game project  
-コード作成、シナリオ作成、テキスト作成、画像生成にChatGPTを使用しています。 
+コード作成、シナリオ作成、テキスト作成、画像生成にChatGPTを使用しています。  
 こちらでは、実行ファイルの起動の仕方、ゲームの遊び方をメインに説明します。  
 ソースコードは[こちら](./README.md)  
 
@@ -112,6 +112,8 @@ A visual novel game project
 - 牢屋の扉を閉める  
 
 （敬称略）  
+
+---
 
 これらの素晴らしい音源を提供してくださった制作者、および貢献者の皆様に心より感謝申し上げます。  
 
@@ -237,7 +239,7 @@ Pygameは、GNU Lesser General Public License (LGPL) の下でライセンスさ
 ---
 
 #### **cryptography**  
-Copyright (c) 2013-2024, The cryptography developers. All rights reserved.
+Copyright (c) 2013-2024, The cryptography developers. All rights reserved.  
 このプロジェクトでは、音源データの暗号化・復号化に`cryptography`ライブラリを使用しています。  
 このライブラリは以下のライセンスに基づき配布されています：  
 - Apache License 2.0  
@@ -264,7 +266,7 @@ Copyright (c) 2013-2024, The cryptography developers. All rights reserved.
 
 ---
 #### **Cython** 
-このプロジェクトの実行ファイルは、Cythonを使用して難読化を行っています。
+このプロジェクトの実行ファイルは、Cythonを使用して難読化を行っています。  
 Cython © 2007-2023 The Cython Project Developers  
 Licensed under the Apache License 2.0.  
 - [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)  
