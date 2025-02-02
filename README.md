@@ -6,7 +6,7 @@
 A visual novel game project  
 コード作成、シナリオ作成、テキスト作成、画像生成にChatGPTを使用しています。  
 このブランチでは、ゲームの**ソースコード**を記載しています。  
-ゲームプレイ(実行ファイル)は[こちら](https://github.com/AglaoDev-jp/majinnosumu_tower/releases/download/version-5.0/majinnosumu_tower_v.5.0.zip)
+ゲームプレイ(実行ファイル)のダウンロードは[こちら](https://github.com/AglaoDev-jp/majinnosumu_tower/releases/download/version-5.0/majinnosumu_tower_v.5.0.zip)
 
 ---
 
