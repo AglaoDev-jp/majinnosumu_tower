@@ -144,21 +144,21 @@ encrypted_audio/
 ---
 
 ## 4. `secret.key`を暗号化
-`MasterKeyObfuscation.py`を使用して`secret.key`をさらに暗号化した`encrypted_secret.key`と、その解除キー`master.key`を作成してください。  
+`generate_master_key.py`を使用して`secret.key`をさらに暗号化した`encrypted_secret.key`と、その解除キー`master.key`を作成してください。  
 
 ```
 プロジェクトフォルダ/
 ├── secret.key                   # 暗号化に使用した秘密鍵ファイル
 ├── master.key         　        # encrypted_secret.keyの解除キー（自動生成）
 ├── encrypted_secret.key         # 暗号化された秘密鍵（自動生成）
-├── MasterKeyObfuscation.py      # キー暗号化スクリプト
+├── generate_master_key.py       # キー暗号化スクリプト
 ```
 
  **スクリプトを実行**
    以下のコマンドを使用して`secret.key`を暗号化した`encrypted_secret.key`とそれを解除する`master.key`を作成します：
 
    ```bash
-   python MasterKeyObfuscation.py
+   python generate_master_key.py
    ```
 
 ## 5. 解除用の`master.key`をソースコードにハードコーディング  

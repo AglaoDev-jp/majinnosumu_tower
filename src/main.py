@@ -206,7 +206,7 @@ def load_json(file_path):
         return None
 
 # JSON ファイルのパス定義
-story_json_file = get_resource_path('assets', 'scenario',  'C_07_monster_bird.json')
+story_json_file = get_resource_path('assets', 'scenario',  '01_start_point.json')
 credits_json_file = get_resource_path('assets', 'scenario', 'staff_credits_ver.4.json')
 
 # ストーリーとクレジットのデータを読み込む
