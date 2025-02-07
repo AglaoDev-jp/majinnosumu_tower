@@ -206,7 +206,7 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
 このプロジェクトの実行ファイルは、Cythonを使用して難読化を行っています。  
 - Cython © 2007-2023 The Cython Project Developers  
 - Licensed under the Apache License 2.0.  
-- [Apache License 2.0](http://www.apache.org/licenses/LICENSE.APACHE)  
+- [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
 
 #### **PyInstaller**  
 このプロジェクトは、PyInstallerを使用して実行ファイル化に対応しています。  
