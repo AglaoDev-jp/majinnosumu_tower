@@ -13,7 +13,7 @@ A visual novel game project
 
 ## ゲームファイル(実行ファイル)のセキュリティに関する注意事項
 本ソフトウェアは、**悪意のあるコード（ウイルス・マルウェア）は含まれていません。**  
-しかし、一部のアンチウイルスソフト（Noton,Avast,AVG,SecureAge,Zillya など）により、**誤検出**されることがあります。  
+しかし、一部のアンチウイルスソフト（Norton,Avast,AVG,SecureAge,Zillya など）により、**誤検出**されることがあります。  
 これはファイルサイズや圧縮方法による影響であり、悪意のある動作はありません。  
 
 ### ** 誤検出が起こる理由**
@@ -25,7 +25,7 @@ A visual novel game project
 
 ### **安全性を確認する方法**
 本ソフトウェアが安全かどうかを確認する場合は、以下の方法を推奨します：
-- **VirusTotal（https://www.virustotal.com/）にアップロードし、スキャン結果を確認する**
+- **VirusTotalにアップロードし、スキャン結果を確認する[https://www.virustotal.com/]（https://www.virustotal.com/）**
 - **仮想環境（VirtualBox, Windows Sandbox など）で実行してみる**
 - **公式の配布元（GitHub）からダウンロードする**
 
