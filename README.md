@@ -25,7 +25,7 @@ A visual novel game project
 
 ### **安全性を確認する方法**
 本ソフトウェアが安全かどうかを確認する場合は、以下の方法を推奨します：
-- **VirusTotalにアップロードし、スキャン結果を確認する[https://www.virustotal.com/]（https://www.virustotal.com/）**
+- **VirusTotalにアップロードし、スキャン結果を確認する**[VirusTotal]（https://www.virustotal.com/）
 - **仮想環境（VirtualBox, Windows Sandbox など）で実行してみる**
 - **公式の配布元（GitHub）からダウンロードする**
 
