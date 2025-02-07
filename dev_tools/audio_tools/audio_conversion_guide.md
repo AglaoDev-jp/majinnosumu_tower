@@ -64,7 +64,7 @@
    以下のコマンドを使用して秘密鍵を作成します：
 
    ```bash
-   python generate_key.py.py
+   python generate_key.py
    ```
 
 2. **生成結果の確認**
@@ -114,7 +114,7 @@
      ```
 
 3. **暗号化結果の確認**
-   - `encrypted_audio/` フォルダに、暗号化された音源ファイル（例: `example1.mp3.bin.enc`）が保存されます。
+   - `encrypted_audio/` フォルダに、暗号化された音源ファイルが保存されます。
 
 ---
 
@@ -122,24 +122,6 @@
   
 1. **暗号化前のファイルは削除またはフォルダ内に含めないように**してください。  
 2. 暗号化された音源は通常のプレーヤーでは再生できません。復号が必要な場合は、`decrypt_audio.py` を使用してください。
-
----
-
-### **実行後のファイル構成例**
-
-#### 元のファイル：
-```
-binary_audio/
-├── example1.mp3.bin
-├── example2.wav.bin
-```
-
-#### 実行後の結果：
-```
-encrypted_audio/
-├── example1.mp3.bin.enc
-├── example2.wav.bin.enc
-```
 
 ---
 
