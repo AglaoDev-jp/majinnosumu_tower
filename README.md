@@ -611,14 +611,14 @@ distフォルダ内に作成された実行ファイルをそのまま配布す�
 
 ## このゲームのライセンス
 
-- **コード**: MIT License。詳細は[LICENSE-CODE](./licenses/game/LICENSE-CODE)ファイルを参照してください。
+- **このゲームのコード 制作ツールのコード**: MIT License。詳細は[LICENSE-CODE](./licenses/game/LICENSE-CODE)ファイルを参照してください。
 - **画像**: Creative Commons Attribution 4.0 (CC BY 4.0)。詳細は[LICENSE-IMAGES](./licenses/game/LICENSE-IMAGES)ファイルを参照してください。
 - **シナリオ**: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)。詳細は[LICENSE-SCENARIOS](./licenses/game/LICENSE-SCENARIOS)ファイルを参照してください。
 
 ## ライセンスの簡単な説明
 
-- **コード**: （MIT License）
-このゲームのコードは、MITライセンスのもとで提供されています。自由に使用、改変、配布が可能ですが、著作権表示とライセンスの文言を含める必要があります。
+- **このゲームのコード 制作ツールのコード**: （MIT License）
+このゲームのコードと制作ツールのコードは、MITライセンスのもとで提供されています。自由に使用、改変、配布が可能ですが、著作権表示とライセンスの文言を含める必要があります。
 
 - **画像**: （Creative Commons Attribution 4.0, CC BY 4.0）
 このゲームの画像は、CC BY 4.0ライセンスのもとで提供されています。自由に使用、改変、配布が可能ですが、著作権者のクレジットを表示する必要があります。

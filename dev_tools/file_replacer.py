@@ -1,3 +1,10 @@
+"""
+作成者: AglaoDev-jp  
+Copyright © 2024 AglaoDev-jp
+ライセンス情報:
+- コード: MIT License
+This software is licensed under the MIT License. For details, see the LICENSE file.
+"""
 import os
 
 input_folder = "置換フォルダ"  # スクリプトと同じディレクトリ内にフォルダをいれてフォルダ名を指定してください

@@ -1,3 +1,30 @@
+"""
+作成者: AglaoDev-jp  
+Copyright © 2024 AglaoDev-jp
+ライセンス情報:
+- コード: MIT License
+This software is licensed under the MIT License. For details, see the LICENSE file.
+
+External Libraries:
+
+- pygame:  
+  Copyright © 2000-2024 Pygame developers  
+  Licensed under the LGPL License. See LICENSE-pygame.txt or visit:  
+  [Pygame License](https://www.pygame.org/docs/license.html)
+
+- cryptography:  
+  Copyright © 2013-2024 The cryptography developers  
+  Licensed under the Apache License, Version 2.0 or the BSD 3-Clause License.  
+  For full details, see LICENSE-cryptography.txt or visit:  
+  [Cryptography License](https://github.com/pyca/cryptography/blob/main/LICENSE)
+
+  This software includes cryptographic components from OpenSSL 3.4.0 (22 Oct 2024), distributed under the Apache License 2.0.  
+  For details, see LICENSE-OpenSSL.txt or [OpenSSL License](https://www.openssl.org/source/license.html).  
+  Copyright (c) 1998-2024 The OpenSSL Project Authors  
+  Copyright (c) 1995-1998 Eric A. Young, Tim J. Hudson  
+  All rights reserved.
+  
+"""
 from cryptography.fernet import Fernet
 import os
 import sys

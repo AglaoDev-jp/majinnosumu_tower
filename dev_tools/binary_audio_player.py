@@ -1,3 +1,18 @@
+"""
+作成者: AglaoDev-jp  
+Copyright © 2024 AglaoDev-jp
+ライセンス情報:
+- コード: MIT License
+This software is licensed under the MIT License. For details, see the LICENSE file.
+External Libraries:
+
+- pygame:  
+  Copyright © 2000-2024 Pygame developers  
+  Licensed under the LGPL License. See LICENSE-pygame.txt or visit:  
+  [Pygame License](https://www.pygame.org/docs/license.html)
+
+"""
+
 import os
 import tempfile # 一時ファイルや一時ディレクトリを作成・操作する標準のモジュール
 import pygame

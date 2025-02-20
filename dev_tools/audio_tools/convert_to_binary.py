@@ -1,3 +1,11 @@
+"""
+作成者: AglaoDev-jp  
+Copyright © 2024 AglaoDev-jp
+ライセンス情報:
+- コード: MIT License
+This software is licensed under the MIT License. For details, see the LICENSE file.
+"""
+
 import os
 
 # 音源ファイルをバイナリ形式に変換して保存する関数

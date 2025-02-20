@@ -1,3 +1,28 @@
+"""
+作成者: AglaoDev-jp  
+Copyright © 2024 AglaoDev-jp
+ライセンス情報:
+- コード: MIT License
+This software is licensed under the MIT License. For details, see the LICENSE file.
+
+External Libraries:
+
+- Tkinter:  
+  Copyright © Regents of the University of California, Sun Microsystems, Inc., Scriptics Corporation, and other parties  
+  Licensed under the Tcl/Tk License. For full details, see:  
+  [Tcl/Tk License](https://www.tcl.tk/software/tcltk/license.html)
+
+- Pillow (a friendly fork of the Python Imaging Library, PIL):  
+  The Python Imaging Library (PIL) is  
+  Copyright © 1997-2011 by Secret Labs AB  
+  Copyright © 1995-2011 Fredrik Lundh and Contributors.  
+  Pillow is the friendly PIL fork. It is  
+  Copyright © 2010-2024 by Jeffrey A. Clark and contributors  
+  Licensed under the MIT-CMU License. See LICENSE-Pillow.txt or visit:  
+  [Pillow License](https://pillow.readthedocs.io/en/stable/about.html#license)
+
+"""
+
 from PIL import Image  # PillowライブラリからImageモジュールをインポート
 import os  # ファイル操作用の標準ライブラリ
 import tkinter as tk  # GUIを作成するためのTkinterモジュール
