@@ -44,7 +44,7 @@
               "sound_effect": "重力魔法2.mp3.bin"
           },
           {
-              "text": "stop_musicで音楽をストップできます。セグメント単位でも使用可能です。",
+              "text": "stop_musicで音楽をストップできます。page単位でも使用可能です。",
               "stop_music": true
           },
           {
@@ -63,7 +63,7 @@
       {
         "page": 2,
         "save_id": "",
-        "save_description": "セグメントの説明",
+        "save_description": "pageの説明",
         "flags": [
           {
             "bg_change": "solitary_cell.png",
@@ -72,7 +72,7 @@
         ],
         "segments": [
           {
-            "text": "セグメント単位で画像と音楽を変更できます。",
+            "text": "page単位で画像と音楽を変更できます。",
             "auto_advance": true
           },
           {
@@ -80,7 +80,7 @@
             "auto_advance": true
           },
           {
-            "text": "画像の場合、セグメント単位での設定では変更しない限りその設定が続きます",
+            "text": "画像の場合、page単位での設定では変更しない限りその設定が続きます",
             "auto_advance": true
           },
           {
