@@ -4,10 +4,14 @@
 # 魔人の棲む塔_visual-novel-game ver-5.0
 
 A visual novel game project  
-コード作成、シナリオ作成、テキスト作成、画像生成にChatGPTを使用しています。  
+コード作成、シナリオ作成、テキスト作成、画像生成に OpenAIの対話型AI「ChatGPT」を使用しています。  
 このブランチでは、ゲームの**ソースコード**を記載しています。  
 ゲームファイル(実行ファイル)のダウンロードは[こちら](https://github.com/AglaoDev-jp/majinnosumu_tower/releases/download/version-5.0/majinnosumu_tower_v.5.0.zip)  
 ゲームプレイ(実行ファイル)のREADMEは[こちら](./README_Game.md)
+
+---
+
+本プロジェクトの制作にあたり、OpenAIの対話型AI「ChatGPT」のサポートを受けて、画像生成、アイデア出し、コード修正、文章の表現の改善、翻訳などをスムーズに行うことができました。開発に携わったすべての研究者、開発者、関係者の皆様に、心より感謝申し上げます。    
 
 ---
 
@@ -209,11 +213,37 @@ Pygameは、**GNU Lesser General Public License (LGPL)** の下でライセン�
 - [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)  
 
 #### **PyInstaller**  
-このプロジェクトは、PyInstallerを使用して実行ファイル化に対応しています。  
-PyInstallerはGNU General Public License (GPL) の下でライセンスされていますが、例外規定により、生成される実行ファイルはGPLの制約を受けません。  
+このプロジェクトは、**PyInstaller** を使用して実行ファイル化に対応しています。  
+PyInstaller は GNU GPL ライセンスですが、例外規定により  
+**生成される実行ファイル自体は GPL の制約を受けません**。
 
-詳しくは以下をご確認ください：  
-- [PyInstaller公式ライセンス情報](https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt)  
+- **著作権表示：**  
+  ```
+  Copyright (c) 2010–2023, PyInstaller Development Team  
+  Copyright (c) 2005–2009, Giovanni Bajo  
+  Based on previous work under copyright (c) 2002 McMillan Enterprises, Inc.
+  ```
+
+#### ⚖️ PyInstaller のライセンス構成について
+
+PyInstaller は以下のように**複数のライセンス形態**で構成されています：
+
+- 🔹 **GNU GPL v2 or later（例外付き）**  
+  本体およびブートローダに適用されます。  
+  → **生成された実行ファイルは任意のライセンスで配布可能**です（依存ライブラリに従う限り）。
+
+- 🔹 **Apache License 2.0**  
+  ランタイムフック（`./PyInstaller/hooks/rthooks/`）に適用されています。  
+  → 他プロジェクトとの連携や再利用を意識した柔軟なライセンス。
+
+- 🔹 **MIT License**  
+  一部のサブモジュール（`PyInstaller.isolated/`）およびそのテストコードに適用。  
+  → 再利用を目的としたサブパッケージに限定適用されています。  
+
+####  詳細情報へのリンク
+
+- [PyInstallerのライセンス文書（GitHub）](https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt)  
+- [PyInstaller公式サイト](https://pyinstaller.org/en/v6.13.0/index.html)  
 
 ---
 
